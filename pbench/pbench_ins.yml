@@ -1,0 +1,77 @@
+---
+## Set up pbench agent on all hosts
+
+- hosts: pbench_agents  
+  remote_user: root
+  tasks:
+    - name: install python-pandas
+      yum:
+        name: python-pandas
+        state: installed
+
+#    - name: install the epel rpm from a remote repo
+#      yum:
+#        name: http://https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+#        state: present
+
+
+    - name: install pbench
+      with_items:
+        - pbench-agent
+        - pbench-fio
+        - pbench-uperf
+        - pbench-sysstat
+      yum:
+        name: "{{item}}"
+        state: installed
+
+## Set up pbench webserver and register all the hosts
+
+- hosts: pbench_webserver
+  remote_user: root
+  tasks:
+    - name: register all hosts for iostat and sar
+      shell: ". /etc/profile.d/pbench-agent.sh ; for tool in sar iostat ; do for host in `cat internal-hosts.list` ; do pbench-register-tool --name=$tool --remote=$host || exit 1 ; done ; done"
+    
+    - name: install httpd web server
+      yum:
+        name: httpd
+        state: installed
+
+    - name: install http-parser
+      yum:
+        name: http-parser
+        state: installed
+
+    - name: install tmux
+      yum:
+        name: tmux
+        state: installed
+
+    - name: install pbench-web-server RPM
+      yum:
+        name: pbench-web-server
+        state: installed
+
+    - name: configure link to javascript for graph display
+      file: 
+        path: /var/www/html/static
+        src: /opt/pbench-web-server/html/static
+        owner: apache
+        mode: ugo=rwx
+        state: link
+
+    - name: create pub/ subdirectory for pbench data
+      file:
+        path: /var/www/html/pub
+        owner: apache
+        mode: ugo=rwx
+        state: directory 
+   
+    - name: start httpd web server
+      shell: "systemctl start httpd"
+
+ # now that everything is installed and ready, make sure it works
+ #
+    - name: give Ceph a quick smoke test
+      shell: ". /etc/profile.d/pbench-agent.sh ; bash ./run-rados-smoke-test.sh"
