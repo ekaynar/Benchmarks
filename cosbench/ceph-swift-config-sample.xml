@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<workload name="CH_L1" description="RGW-Cache Benchmarking">
+
+  <storage type="swift" />
+  
+  <!-- Storage policies feature: http://docs.openstack.org/developer/swift/overview_architecture.html
+	<storage type="swift" config="policy=gold" />
+  -->
+  
+  <!-- MODIFY ME -->
+  <auth type="swauth" config="username= !--XXX--! ;password= !--XXX--! ;auth_url=http://!--XX--!/auth/1.0" />
+
+  <!-- Keystone Authentication 
+  <auth type="keystone" config="username=tester;password=testing;tenant_name=test;auth_url=http://127.0.0.1:5000/v2.0;service=swift service;region=regionOne" /> 
+  -->
+
+  <!-- bypass authentication, directly feed auth token  
+  <storage type="swift" config="token=AUTH_xxx;storage_url=http://192.168.10.1:8080/auth/v1.0" />	
+  -->
+	
+  <workflow>
+
+    <workstage name="init">
+      <work type="init" workers="1" config="containers=r(1,8)" />
+    </workstage>
+
+    <workstage name="prepare">
+      <work type="prepare" workers="8" config="containers=r(1,8);objects=r(1,1);sizes=c(1)GB" />
+    </workstage>
+
+ <workstage name="main">
+      <work name="main" workers="8" totalOps="8">
+        <operation type="read" ratio="100" config="containers=s(1,8);objects=s(1,1)" />
+      </work>
+    </workstage>
+
+   <workstage name="cleanup">
+      <work type="cleanup" workers="1" config="containers=r(1,8);objects=r(1,1)" />
+    </workstage>
+
+    <workstage name="dispose">
+      <work type="dispose" workers="1" config="containers=r(1,8)" />
+    </workstage>
+
+
+
+<!--
+    <workstage name="main">
+      <work name="main" workers="8" runtime="300">
+        <operation type="read" ratio="100" config="containers=u(1,32);objects=u(1,50)" />
+        <operation type="write" ratio="20" config="containers=u(1,32);objects=u(51,100);sizes=c(64)KB" />
+      </work>
+    </workstage>
+    <workstage name="cleanup">
+      <work type="cleanup" workers="1" config="containers=r(1,32);objects=r(1,100)" />
+    </workstage>
+
+    <workstage name="dispose">
+      <work type="dispose" workers="1" config="containers=r(1,32)" />
+    </workstage>
+-->
+  </workflow>
+
+</workload>
