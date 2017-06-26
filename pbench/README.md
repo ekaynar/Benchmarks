@@ -1,5 +1,6 @@
-# How to Install PBench with Ansible
-## Adding Repos :
+How to Install PBench with Ansible
+=====================================
+# Adding Repos :
 
  For all the nodes: 
 ---------------------
@@ -15,7 +16,7 @@ wget -O /etc/yum.repos.d/_copr_ndokos-pbench.repo https://copr.fedorainfracloud.
 wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 rpm -i epel-release-latest-7.noarch.rpm 
 ```
-## Installation with Ansible
+# Installation with Ansible
 For master node
 -----------------------
 * Install ansible on the master machine
@@ -36,7 +37,8 @@ gprfs033
 ansible-playbook -v pbench_ins.yml 
 ```
 
-# Viewing pbench graphs and data
+Viewing pbench graphs and data
+=================================
 * Local configurations for webserver
 ```
 ln -sf /opt/pbench-web-server/html/static /var/www/html
