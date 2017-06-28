@@ -4,10 +4,12 @@
 #Usage
 #rados bench -p <pool_name> <seconds> <write|seq|rand>
 
-run_time=3
 
+## Configurations
+run_time=30
 ceph_ips=("gprfs033" "gprfs034" "gprfs035" "gprfs036")
 rgw_ip="gprfc085"
+path="/root/radosBenchRes"
 
 
 function clean_ceph {
@@ -70,11 +72,12 @@ do
  esac
 done
 
-filename=radosBench.$k.$m
+filename=$path/radosBench.$k.$m
 echo $filename
 date > $filename
 run $filename &&
-parsing $filename
+parsing $filename 
+parsing $filename >> $filename
 
 exit 1
 
