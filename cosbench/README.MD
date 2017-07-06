@@ -58,3 +58,8 @@ url=http://gprfc078:18088/driver
 ```
 ./start-controller.sh 
 ```
+
+# Visulization
+```
+<IP_adress_of_Controller>:19088/controller/index.html
+```
