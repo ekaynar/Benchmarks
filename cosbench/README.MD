@@ -29,3 +29,32 @@ sudo yum install -y java-1.8.0-openjdk
 ```
 ./start-controller.sh
 ```
+
+
+# Multinode
+* Don't touch the driver.conf file on nodes.
+* Run the following command on each node (client node)
+
+```
+./start-driver.sh 
+```
+* Then edit the controller config file on the master node
+```
+[controller]
+drivers = 2
+log_level = INFO
+log_file = log/system.log
+archive_dir = archive
+
+[driver1]
+name = driver1
+url = http://127.0.0.1:18088/driver
+
+[driver2]
+name=driver2
+url=http://gprfc078:18088/driver
+```
+* run the controller from master node
+```
+./start-controller.sh 
+```
