@@ -37,6 +37,12 @@ gprfs033
 ansible-playbook -v pbench_ins.yml 
 ```
 
+
+NOTES:
+===================================
+Before you do anything else, you need to source the file /etc/profile.d/pbench-agent.sh.
+remove master from internal-host files
+
 Viewing pbench graphs and data
 =================================
 * Local configurations for webserver
