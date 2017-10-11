@@ -34,3 +34,9 @@ systemctl start ntpd
 systemctl status ntpd
 ntpq -p
 ```
+
+Check
+=====
+```
+ceph -s
+````
