@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<workload name="rep.144.obj.4m" description="RGW-Cache Benchmarking">
+
+  <storage type="swift" />
+  
+  <!-- Storage policies feature: http://docs.openstack.org/developer/swift/overview_architecture.html
+       	<storage type="swift" config="policy=gold" />
+  -->
+  
+  <!-- MODIFY ME -->
+  <auth type="swauth" config="username=johndoe:swift;password=tZBCbha4dKMBrCy4CPxohvCKVmarI6oYphDK3zLT;auth_url=http://rgw:8080/auth/1.0" />
+
+	
+  <workflow>
+
+    
+<workstage name="delay" closuredelay="20" > 
+<work type="delay" workers="1" />
+ </workstage>
+
+
+  </workflow>
+
+</workload>
