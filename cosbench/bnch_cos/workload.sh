@@ -15,11 +15,11 @@ run_time=$3
 thread=$4
 b_size=$5
 rgw="node-1"
-buckets=9
-workers=30
-objects=256
+buckets=1000
+workers=36
+objects=8000
 rgw_list=("node-1" "node-2" "node-3")
-size="(4)MB"
+size="(64)KB"
 
 function edit_write {
 	key=$(ssh $rgw 'radosgw-admin user info --uid=johndoe | grep secret_key' | tail -1 | awk '{print $2}' | sed 's/"//g')
@@ -30,6 +30,8 @@ function edit_write {
 	sed  -i "$command" write.xml
 	command="s/containers=r(1,.*);obj/containers=r(1,$buckets);obj/g"
 	sed  -i "$command" write.xml
+	command="s/objects=r(1,.*);s/objects=r(1,$objects);s/g"
+        sed  -i "$command" write.xml
 	command="s/sizes=c.*\"/sizes=c$size\"/g"
 	sed  -i "$command" write.xml
 	
@@ -77,6 +79,7 @@ function main {
 	stop_rgw &&
 	echo "Removing and Recreating Pools" &&
 	pool $1 $2 $3 $4 $5 $6 $7 &&
+	sleep 120
 	echo "Starting RGWs" &&
 	start_rgw &&
 	echo "Creating User" &&

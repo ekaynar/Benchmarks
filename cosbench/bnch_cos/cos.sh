@@ -33,7 +33,7 @@ function run1 {
 	then
 		exist=0
 	fi
-	sleep 5
+	sleep 30
 	done
 }
 
