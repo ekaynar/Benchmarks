@@ -1,33 +1,35 @@
 ## COSBENCH INSTALLATION
 
-# Download CosBench
-* Obtain installation package from github(Releases) and place it at COSBench package under
-the /home directory on the controller node.
+# Download COSBench
+* Obtain installation package from [github(Releases)](https://github.com/intel-cloud/cosbench/releases) and place it at COSBench package under the /home directory on the controller node.
 
 ```
 unzip 0.4.2.c4.zip
 cd 0.4.2.c4
 chmod +x *.sh
 ```
+
 # Installation
-* Install Java
+* Install dependencies
 ```
 sudo yum install -y java-1.8.0-openjdk
+sudo yum install nc
 ```
 
-* install nc
-```
- sudo yum install nc
-```
-
-* Run Drivers
+# Single Node 
+* Start COSBench Drivers
 ```
 ./start-driver.sh
 ```
 
-* Run Controller
+* Start COSBench Controller
 ```
 ./start-controller.sh
+```
+
+* Start COSBench controller and COSBench driver 
+```
+./start-all.sh
 ```
 
 
@@ -63,3 +65,14 @@ url=http://gprfc078:18088/driver
 ```
 <IP_adress_of_Controller>:19088/controller/index.html
 ```
+
+# Hints
+* If you restart Controller, previos workload will not show up on the webpage. CLick the botton to load previoous workload by clicking **unload archived workloads** botton.
+
+* .csv files for each work is stored in **archive** folder (/root/0.4.2.c4/archive)
+
+* Pbench will not work with COSBench properly. COSbench is setting the system clock and mess up the Pbench's time synchronization. You can find more info about the issue on here: https://github.com/intel-cloud/cosbench/issues/340
+To solve the issue, I downloaded COSBench source code and remove the line in **cosbench/dev/cosbench-driver-web/src/com/intel/cosbench/driver/handler/PingHandler.java** . Then I build the code with eclipse SDK and it worked fine.
+
+
+
