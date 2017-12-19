@@ -1,0 +1,10 @@
+2017-11-22 17:44:46,165 [INFO] [Log4jLogManager] - will append log to file /root/0.5.2/log/mission/M4E5E7AA8C5.log
+2017-11-22 17:44:46,173 [INFO] [NoneStorage] - performing PUT at /mycontainers1
+2017-11-22 17:44:46,193 [INFO] [NoneStorage] - performing PUT at /mycontainers2
+2017-11-22 17:44:46,212 [INFO] [NoneStorage] - performing PUT at /mycontainers3
+2017-11-22 17:44:46,231 [INFO] [NoneStorage] - performing PUT at /mycontainers4
+2017-11-22 17:44:46,250 [INFO] [NoneStorage] - performing PUT at /mycontainers5
+2017-11-22 17:44:46,269 [INFO] [NoneStorage] - performing PUT at /mycontainers6
+2017-11-22 17:44:46,289 [INFO] [NoneStorage] - performing PUT at /mycontainers7
+2017-11-22 17:44:46,308 [INFO] [NoneStorage] - performing PUT at /mycontainers8
+2017-11-22 17:44:46,328 [INFO] [NoneStorage] - performing PUT at /mycontainers9

@@ -1,0 +1,27 @@
+2017-11-30 05:08:37,606 [INFO] [Log4jLogManager] - will append log to file /root/0.5.2/log/mission/MEB539F3DC.log
+2017-11-30 05:09:07,761 [ERROR] [AuthAgent] - unable to login
+com.intel.cosbench.api.auth.AuthException: org.apache.http.conn.ConnectTimeoutException: Connect to 128.168.93.18:8080 timed out
+	at com.intel.cosbench.api.swauth.SwiftAuth.login(SwiftAuth.java:107)
+	at com.intel.cosbench.driver.agent.AuthAgent.tryLogin(AuthAgent.java:125)
+	at com.intel.cosbench.driver.agent.AuthAgent.login(AuthAgent.java:89)
+	at com.intel.cosbench.driver.agent.AuthAgent.execute(AuthAgent.java:52)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.http.conn.ConnectTimeoutException: Connect to 128.168.93.18:8080 timed out
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:125)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:148)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:150)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:121)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:575)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:425)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:754)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:732)
+	at com.intel.cosbench.client.swauth.SwiftAuthClient.login(SwiftAuthClient.java:69)
+	at com.intel.cosbench.api.swauth.SwiftAuth.login(SwiftAuth.java:103)
+	... 9 more
+2017-11-30 05:09:07,762 [ERROR] [AuthAgent] - fail to login with 1 attempt(s)

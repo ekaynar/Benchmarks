@@ -1,0 +1,9 @@
+2017-12-05 21:41:59,352 [INFO] [Log4jLogManager] - will append log to file /root/0.5.2/log/mission/M828A0DCD5F.log
+2017-12-05 21:42:00,418 [INFO] [NoneStorage] - performing PUT at /mycontainers81/myobjects148
+2017-12-05 21:42:00,419 [INFO] [NoneStorage] - performing PUT at /mycontainers81/myobjects22
+2017-12-05 21:42:00,418 [INFO] [NoneStorage] - performing PUT at /mycontainers81/myobjects43
+2017-12-05 21:42:00,420 [INFO] [NoneStorage] - performing PUT at /mycontainers81/myobjects64
+2017-12-05 21:42:00,419 [INFO] [NoneStorage] - performing PUT at /mycontainers81/myobjects127
+2017-12-05 21:42:00,419 [INFO] [NoneStorage] - performing PUT at /mycontainers81/myobjects106
+2017-12-05 21:42:00,420 [INFO] [NoneStorage] - performing PUT at /mycontainers81/myobjects1
+2017-12-05 21:42:00,420 [INFO] [NoneStorage] - performing PUT at /mycontainers81/myobjects85

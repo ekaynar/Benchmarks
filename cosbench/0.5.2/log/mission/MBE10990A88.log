@@ -1,0 +1,341 @@
+2017-11-21 19:03:41,688 [INFO] [Log4jLogManager] - will append log to file /root/0.5.2/log/mission/MBE10990A88.log
+2017-11-21 19:03:41,703 [ERROR] [AuthAgent] - unable to login
+com.intel.cosbench.api.auth.AuthTimeoutException: com.intel.cosbench.client.swauth.SwiftAuthClientException: Unauthorized
+	at com.intel.cosbench.api.swauth.SwiftAuth.login(SwiftAuth.java:105)
+	at com.intel.cosbench.driver.agent.AuthAgent.tryLogin(AuthAgent.java:125)
+	at com.intel.cosbench.driver.agent.AuthAgent.login(AuthAgent.java:89)
+	at com.intel.cosbench.driver.agent.AuthAgent.execute(AuthAgent.java:52)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.intel.cosbench.client.swauth.SwiftAuthClientException: Unauthorized
+	at com.intel.cosbench.client.swauth.SwiftAuthClient.login(SwiftAuthClient.java:79)
+	at com.intel.cosbench.api.swauth.SwiftAuth.login(SwiftAuth.java:103)
+	... 9 more
+2017-11-21 19:03:41,704 [ERROR] [AuthAgent] - fail to login with 1 attempt(s)
+2017-11-21 19:03:41,706 [ERROR] [AuthAgent] - unable to login
+com.intel.cosbench.api.auth.AuthTimeoutException: com.intel.cosbench.client.swauth.SwiftAuthClientException: Unauthorized
+	at com.intel.cosbench.api.swauth.SwiftAuth.login(SwiftAuth.java:105)
+	at com.intel.cosbench.driver.agent.AuthAgent.tryLogin(AuthAgent.java:125)
+	at com.intel.cosbench.driver.agent.AuthAgent.login(AuthAgent.java:89)
+	at com.intel.cosbench.driver.agent.AuthAgent.execute(AuthAgent.java:52)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.intel.cosbench.client.swauth.SwiftAuthClientException: Unauthorized
+	at com.intel.cosbench.client.swauth.SwiftAuthClient.login(SwiftAuthClient.java:79)
+	at com.intel.cosbench.api.swauth.SwiftAuth.login(SwiftAuth.java:103)
+	... 9 more
+2017-11-21 19:03:41,706 [ERROR] [AuthAgent] - fail to login with 1 attempt(s)
+2017-11-21 19:03:41,706 [ERROR] [AuthAgent] - unable to login
+com.intel.cosbench.api.auth.AuthTimeoutException: com.intel.cosbench.client.swauth.SwiftAuthClientException: Unauthorized
+	at com.intel.cosbench.api.swauth.SwiftAuth.login(SwiftAuth.java:105)
+	at com.intel.cosbench.driver.agent.AuthAgent.tryLogin(AuthAgent.java:125)
+	at com.intel.cosbench.driver.agent.AuthAgent.login(AuthAgent.java:89)
+	at com.intel.cosbench.driver.agent.AuthAgent.execute(AuthAgent.java:52)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.intel.cosbench.client.swauth.SwiftAuthClientException: Unauthorized
+	at com.intel.cosbench.client.swauth.SwiftAuthClient.login(SwiftAuthClient.java:79)
+	at com.intel.cosbench.api.swauth.SwiftAuth.login(SwiftAuth.java:103)
+	... 9 more
+2017-11-21 19:03:41,706 [ERROR] [AuthAgent] - fail to login with 1 attempt(s)
+2017-11-21 19:03:41,707 [ERROR] [AuthAgent] - unable to login
+com.intel.cosbench.api.auth.AuthTimeoutException: com.intel.cosbench.client.swauth.SwiftAuthClientException: Unauthorized
+	at com.intel.cosbench.api.swauth.SwiftAuth.login(SwiftAuth.java:105)
+	at com.intel.cosbench.driver.agent.AuthAgent.tryLogin(AuthAgent.java:125)
+	at com.intel.cosbench.driver.agent.AuthAgent.login(AuthAgent.java:89)
+	at com.intel.cosbench.driver.agent.AuthAgent.execute(AuthAgent.java:52)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.intel.cosbench.client.swauth.SwiftAuthClientException: Unauthorized
+	at com.intel.cosbench.client.swauth.SwiftAuthClient.login(SwiftAuthClient.java:79)
+	at com.intel.cosbench.api.swauth.SwiftAuth.login(SwiftAuth.java:103)
+	... 9 more
+2017-11-21 19:03:41,707 [ERROR] [AuthAgent] - fail to login with 1 attempt(s)
+2017-11-21 19:03:41,707 [ERROR] [AuthAgent] - unable to login
+com.intel.cosbench.api.auth.AuthTimeoutException: com.intel.cosbench.client.swauth.SwiftAuthClientException: Unauthorized
+	at com.intel.cosbench.api.swauth.SwiftAuth.login(SwiftAuth.java:105)
+	at com.intel.cosbench.driver.agent.AuthAgent.tryLogin(AuthAgent.java:125)
+	at com.intel.cosbench.driver.agent.AuthAgent.login(AuthAgent.java:89)
+	at com.intel.cosbench.driver.agent.AuthAgent.execute(AuthAgent.java:52)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.intel.cosbench.client.swauth.SwiftAuthClientException: Unauthorized
+	at com.intel.cosbench.client.swauth.SwiftAuthClient.login(SwiftAuthClient.java:79)
+	at com.intel.cosbench.api.swauth.SwiftAuth.login(SwiftAuth.java:103)
+	... 9 more
+2017-11-21 19:03:41,707 [ERROR] [AuthAgent] - fail to login with 1 attempt(s)
+2017-11-21 19:03:41,707 [ERROR] [AuthAgent] - unable to login
+com.intel.cosbench.api.auth.AuthTimeoutException: com.intel.cosbench.client.swauth.SwiftAuthClientException: Unauthorized
+	at com.intel.cosbench.api.swauth.SwiftAuth.login(SwiftAuth.java:105)
+	at com.intel.cosbench.driver.agent.AuthAgent.tryLogin(AuthAgent.java:125)
+	at com.intel.cosbench.driver.agent.AuthAgent.login(AuthAgent.java:89)
+	at com.intel.cosbench.driver.agent.AuthAgent.execute(AuthAgent.java:52)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.intel.cosbench.client.swauth.SwiftAuthClientException: Unauthorized
+	at com.intel.cosbench.client.swauth.SwiftAuthClient.login(SwiftAuthClient.java:79)
+	at com.intel.cosbench.api.swauth.SwiftAuth.login(SwiftAuth.java:103)
+	... 9 more
+2017-11-21 19:03:41,707 [ERROR] [AuthAgent] - fail to login with 1 attempt(s)
+2017-11-21 19:03:41,708 [ERROR] [AuthAgent] - unable to login
+com.intel.cosbench.api.auth.AuthTimeoutException: com.intel.cosbench.client.swauth.SwiftAuthClientException: Unauthorized
+	at com.intel.cosbench.api.swauth.SwiftAuth.login(SwiftAuth.java:105)
+	at com.intel.cosbench.driver.agent.AuthAgent.tryLogin(AuthAgent.java:125)
+	at com.intel.cosbench.driver.agent.AuthAgent.login(AuthAgent.java:89)
+	at com.intel.cosbench.driver.agent.AuthAgent.execute(AuthAgent.java:52)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.intel.cosbench.client.swauth.SwiftAuthClientException: Unauthorized
+	at com.intel.cosbench.client.swauth.SwiftAuthClient.login(SwiftAuthClient.java:79)
+	at com.intel.cosbench.api.swauth.SwiftAuth.login(SwiftAuth.java:103)
+	... 9 more
+2017-11-21 19:03:41,709 [ERROR] [AuthAgent] - fail to login with 1 attempt(s)
+2017-11-21 19:03:41,709 [ERROR] [AuthAgent] - unable to login
+com.intel.cosbench.api.auth.AuthTimeoutException: com.intel.cosbench.client.swauth.SwiftAuthClientException: Unauthorized
+	at com.intel.cosbench.api.swauth.SwiftAuth.login(SwiftAuth.java:105)
+	at com.intel.cosbench.driver.agent.AuthAgent.tryLogin(AuthAgent.java:125)
+	at com.intel.cosbench.driver.agent.AuthAgent.login(AuthAgent.java:89)
+	at com.intel.cosbench.driver.agent.AuthAgent.execute(AuthAgent.java:52)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.intel.cosbench.client.swauth.SwiftAuthClientException: Unauthorized
+	at com.intel.cosbench.client.swauth.SwiftAuthClient.login(SwiftAuthClient.java:79)
+	at com.intel.cosbench.api.swauth.SwiftAuth.login(SwiftAuth.java:103)
+	... 9 more
+2017-11-21 19:03:41,709 [ERROR] [AuthAgent] - fail to login with 1 attempt(s)
+2017-11-21 19:03:41,709 [ERROR] [AuthAgent] - unable to login
+com.intel.cosbench.api.auth.AuthTimeoutException: com.intel.cosbench.client.swauth.SwiftAuthClientException: Unauthorized
+	at com.intel.cosbench.api.swauth.SwiftAuth.login(SwiftAuth.java:105)
+	at com.intel.cosbench.driver.agent.AuthAgent.tryLogin(AuthAgent.java:125)
+	at com.intel.cosbench.driver.agent.AuthAgent.login(AuthAgent.java:89)
+	at com.intel.cosbench.driver.agent.AuthAgent.execute(AuthAgent.java:52)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.intel.cosbench.client.swauth.SwiftAuthClientException: Unauthorized
+	at com.intel.cosbench.client.swauth.SwiftAuthClient.login(SwiftAuthClient.java:79)
+	at com.intel.cosbench.api.swauth.SwiftAuth.login(SwiftAuth.java:103)
+	... 9 more
+2017-11-21 19:03:41,709 [ERROR] [AuthAgent] - fail to login with 1 attempt(s)
+2017-11-21 19:03:41,709 [ERROR] [AuthAgent] - unable to login
+com.intel.cosbench.api.auth.AuthTimeoutException: com.intel.cosbench.client.swauth.SwiftAuthClientException: Unauthorized
+	at com.intel.cosbench.api.swauth.SwiftAuth.login(SwiftAuth.java:105)
+	at com.intel.cosbench.driver.agent.AuthAgent.tryLogin(AuthAgent.java:125)
+	at com.intel.cosbench.driver.agent.AuthAgent.login(AuthAgent.java:89)
+	at com.intel.cosbench.driver.agent.AuthAgent.execute(AuthAgent.java:52)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.intel.cosbench.client.swauth.SwiftAuthClientException: Unauthorized
+	at com.intel.cosbench.client.swauth.SwiftAuthClient.login(SwiftAuthClient.java:79)
+	at com.intel.cosbench.api.swauth.SwiftAuth.login(SwiftAuth.java:103)
+	... 9 more
+2017-11-21 19:03:41,710 [ERROR] [AuthAgent] - fail to login with 1 attempt(s)
+2017-11-21 19:03:41,709 [ERROR] [AuthAgent] - unable to login
+com.intel.cosbench.api.auth.AuthTimeoutException: com.intel.cosbench.client.swauth.SwiftAuthClientException: Unauthorized
+	at com.intel.cosbench.api.swauth.SwiftAuth.login(SwiftAuth.java:105)
+	at com.intel.cosbench.driver.agent.AuthAgent.tryLogin(AuthAgent.java:125)
+	at com.intel.cosbench.driver.agent.AuthAgent.login(AuthAgent.java:89)
+	at com.intel.cosbench.driver.agent.AuthAgent.execute(AuthAgent.java:52)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.intel.cosbench.client.swauth.SwiftAuthClientException: Unauthorized
+	at com.intel.cosbench.client.swauth.SwiftAuthClient.login(SwiftAuthClient.java:79)
+	at com.intel.cosbench.api.swauth.SwiftAuth.login(SwiftAuth.java:103)
+	... 9 more
+2017-11-21 19:03:41,710 [ERROR] [AuthAgent] - fail to login with 1 attempt(s)
+2017-11-21 19:03:41,709 [ERROR] [AuthAgent] - unable to login
+com.intel.cosbench.api.auth.AuthTimeoutException: com.intel.cosbench.client.swauth.SwiftAuthClientException: Unauthorized
+	at com.intel.cosbench.api.swauth.SwiftAuth.login(SwiftAuth.java:105)
+	at com.intel.cosbench.driver.agent.AuthAgent.tryLogin(AuthAgent.java:125)
+	at com.intel.cosbench.driver.agent.AuthAgent.login(AuthAgent.java:89)
+	at com.intel.cosbench.driver.agent.AuthAgent.execute(AuthAgent.java:52)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.intel.cosbench.client.swauth.SwiftAuthClientException: Unauthorized
+	at com.intel.cosbench.client.swauth.SwiftAuthClient.login(SwiftAuthClient.java:79)
+	at com.intel.cosbench.api.swauth.SwiftAuth.login(SwiftAuth.java:103)
+	... 9 more
+2017-11-21 19:03:41,710 [ERROR] [AuthAgent] - fail to login with 1 attempt(s)
+2017-11-21 19:03:41,709 [ERROR] [AuthAgent] - unable to login
+com.intel.cosbench.api.auth.AuthTimeoutException: com.intel.cosbench.client.swauth.SwiftAuthClientException: Unauthorized
+	at com.intel.cosbench.api.swauth.SwiftAuth.login(SwiftAuth.java:105)
+	at com.intel.cosbench.driver.agent.AuthAgent.tryLogin(AuthAgent.java:125)
+	at com.intel.cosbench.driver.agent.AuthAgent.login(AuthAgent.java:89)
+	at com.intel.cosbench.driver.agent.AuthAgent.execute(AuthAgent.java:52)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.intel.cosbench.client.swauth.SwiftAuthClientException: Unauthorized
+	at com.intel.cosbench.client.swauth.SwiftAuthClient.login(SwiftAuthClient.java:79)
+	at com.intel.cosbench.api.swauth.SwiftAuth.login(SwiftAuth.java:103)
+	... 9 more
+2017-11-21 19:03:41,711 [ERROR] [AuthAgent] - fail to login with 1 attempt(s)
+2017-11-21 19:03:41,711 [ERROR] [AuthAgent] - unable to login
+com.intel.cosbench.api.auth.AuthTimeoutException: com.intel.cosbench.client.swauth.SwiftAuthClientException: Unauthorized
+	at com.intel.cosbench.api.swauth.SwiftAuth.login(SwiftAuth.java:105)
+	at com.intel.cosbench.driver.agent.AuthAgent.tryLogin(AuthAgent.java:125)
+	at com.intel.cosbench.driver.agent.AuthAgent.login(AuthAgent.java:89)
+	at com.intel.cosbench.driver.agent.AuthAgent.execute(AuthAgent.java:52)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.intel.cosbench.client.swauth.SwiftAuthClientException: Unauthorized
+	at com.intel.cosbench.client.swauth.SwiftAuthClient.login(SwiftAuthClient.java:79)
+	at com.intel.cosbench.api.swauth.SwiftAuth.login(SwiftAuth.java:103)
+	... 9 more
+2017-11-21 19:03:41,711 [ERROR] [AuthAgent] - fail to login with 1 attempt(s)
+2017-11-21 19:03:41,710 [ERROR] [AuthAgent] - unable to login
+com.intel.cosbench.api.auth.AuthTimeoutException: com.intel.cosbench.client.swauth.SwiftAuthClientException: Unauthorized
+	at com.intel.cosbench.api.swauth.SwiftAuth.login(SwiftAuth.java:105)
+	at com.intel.cosbench.driver.agent.AuthAgent.tryLogin(AuthAgent.java:125)
+	at com.intel.cosbench.driver.agent.AuthAgent.login(AuthAgent.java:89)
+	at com.intel.cosbench.driver.agent.AuthAgent.execute(AuthAgent.java:52)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.intel.cosbench.client.swauth.SwiftAuthClientException: Unauthorized
+	at com.intel.cosbench.client.swauth.SwiftAuthClient.login(SwiftAuthClient.java:79)
+	at com.intel.cosbench.api.swauth.SwiftAuth.login(SwiftAuth.java:103)
+	... 9 more
+2017-11-21 19:03:41,711 [ERROR] [AuthAgent] - fail to login with 1 attempt(s)
+2017-11-21 19:03:41,710 [ERROR] [AuthAgent] - unable to login
+com.intel.cosbench.api.auth.AuthTimeoutException: com.intel.cosbench.client.swauth.SwiftAuthClientException: Unauthorized
+	at com.intel.cosbench.api.swauth.SwiftAuth.login(SwiftAuth.java:105)
+	at com.intel.cosbench.driver.agent.AuthAgent.tryLogin(AuthAgent.java:125)
+	at com.intel.cosbench.driver.agent.AuthAgent.login(AuthAgent.java:89)
+	at com.intel.cosbench.driver.agent.AuthAgent.execute(AuthAgent.java:52)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.intel.cosbench.client.swauth.SwiftAuthClientException: Unauthorized
+	at com.intel.cosbench.client.swauth.SwiftAuthClient.login(SwiftAuthClient.java:79)
+	at com.intel.cosbench.api.swauth.SwiftAuth.login(SwiftAuth.java:103)
+	... 9 more
+2017-11-21 19:03:41,712 [ERROR] [AuthAgent] - fail to login with 1 attempt(s)
+2017-11-21 19:03:41,710 [ERROR] [AuthAgent] - unable to login
+com.intel.cosbench.api.auth.AuthTimeoutException: com.intel.cosbench.client.swauth.SwiftAuthClientException: Unauthorized
+	at com.intel.cosbench.api.swauth.SwiftAuth.login(SwiftAuth.java:105)
+	at com.intel.cosbench.driver.agent.AuthAgent.tryLogin(AuthAgent.java:125)
+	at com.intel.cosbench.driver.agent.AuthAgent.login(AuthAgent.java:89)
+	at com.intel.cosbench.driver.agent.AuthAgent.execute(AuthAgent.java:52)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.intel.cosbench.client.swauth.SwiftAuthClientException: Unauthorized
+	at com.intel.cosbench.client.swauth.SwiftAuthClient.login(SwiftAuthClient.java:79)
+	at com.intel.cosbench.api.swauth.SwiftAuth.login(SwiftAuth.java:103)
+	... 9 more
+2017-11-21 19:03:41,712 [ERROR] [AuthAgent] - fail to login with 1 attempt(s)
+2017-11-21 19:03:41,710 [ERROR] [AuthAgent] - unable to login
+com.intel.cosbench.api.auth.AuthTimeoutException: com.intel.cosbench.client.swauth.SwiftAuthClientException: Unauthorized
+	at com.intel.cosbench.api.swauth.SwiftAuth.login(SwiftAuth.java:105)
+	at com.intel.cosbench.driver.agent.AuthAgent.tryLogin(AuthAgent.java:125)
+	at com.intel.cosbench.driver.agent.AuthAgent.login(AuthAgent.java:89)
+	at com.intel.cosbench.driver.agent.AuthAgent.execute(AuthAgent.java:52)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.intel.cosbench.client.swauth.SwiftAuthClientException: Unauthorized
+	at com.intel.cosbench.client.swauth.SwiftAuthClient.login(SwiftAuthClient.java:79)
+	at com.intel.cosbench.api.swauth.SwiftAuth.login(SwiftAuth.java:103)
+	... 9 more
+2017-11-21 19:03:41,712 [ERROR] [AuthAgent] - fail to login with 1 attempt(s)
+2017-11-21 19:03:41,710 [ERROR] [AuthAgent] - unable to login
+com.intel.cosbench.api.auth.AuthTimeoutException: com.intel.cosbench.client.swauth.SwiftAuthClientException: Unauthorized
+	at com.intel.cosbench.api.swauth.SwiftAuth.login(SwiftAuth.java:105)
+	at com.intel.cosbench.driver.agent.AuthAgent.tryLogin(AuthAgent.java:125)
+	at com.intel.cosbench.driver.agent.AuthAgent.login(AuthAgent.java:89)
+	at com.intel.cosbench.driver.agent.AuthAgent.execute(AuthAgent.java:52)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.intel.cosbench.client.swauth.SwiftAuthClientException: Unauthorized
+	at com.intel.cosbench.client.swauth.SwiftAuthClient.login(SwiftAuthClient.java:79)
+	at com.intel.cosbench.api.swauth.SwiftAuth.login(SwiftAuth.java:103)
+	... 9 more
+2017-11-21 19:03:41,712 [ERROR] [AuthAgent] - fail to login with 1 attempt(s)
+2017-11-21 19:03:41,711 [ERROR] [AuthAgent] - unable to login
+com.intel.cosbench.api.auth.AuthTimeoutException: com.intel.cosbench.client.swauth.SwiftAuthClientException: Unauthorized
+	at com.intel.cosbench.api.swauth.SwiftAuth.login(SwiftAuth.java:105)
+	at com.intel.cosbench.driver.agent.AuthAgent.tryLogin(AuthAgent.java:125)
+	at com.intel.cosbench.driver.agent.AuthAgent.login(AuthAgent.java:89)
+	at com.intel.cosbench.driver.agent.AuthAgent.execute(AuthAgent.java:52)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.intel.cosbench.client.swauth.SwiftAuthClientException: Unauthorized
+	at com.intel.cosbench.client.swauth.SwiftAuthClient.login(SwiftAuthClient.java:79)
+	at com.intel.cosbench.api.swauth.SwiftAuth.login(SwiftAuth.java:103)
+	... 9 more
+2017-11-21 19:03:41,712 [ERROR] [AuthAgent] - fail to login with 1 attempt(s)

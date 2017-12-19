@@ -1,0 +1,79 @@
+2017-11-20 22:39:26,229 [INFO] [Log4jLogManager] - will append log to file /root/0.5.2/log/mission/MFDCA8BBCD4.log
+2017-11-20 22:39:26,273 [INFO] [NoneStorage] - performing PUT at /mycontainers1/myobjects1
+2017-11-20 22:39:26,273 [INFO] [NoneStorage] - performing PUT at /mycontainers1/myobjects17
+2017-11-20 22:39:26,273 [INFO] [NoneStorage] - performing PUT at /mycontainers1/myobjects21
+2017-11-20 22:39:26,273 [INFO] [NoneStorage] - performing PUT at /mycontainers1/myobjects19
+2017-11-20 22:39:26,273 [INFO] [NoneStorage] - performing PUT at /mycontainers1/myobjects15
+2017-11-20 22:39:26,273 [INFO] [NoneStorage] - performing PUT at /mycontainers1/myobjects13
+2017-11-20 22:39:26,273 [INFO] [NoneStorage] - performing PUT at /mycontainers1/myobjects9
+2017-11-20 22:39:26,273 [INFO] [NoneStorage] - performing PUT at /mycontainers1/myobjects5
+2017-11-20 22:39:26,273 [INFO] [NoneStorage] - performing PUT at /mycontainers1/myobjects11
+2017-11-20 22:39:26,273 [INFO] [NoneStorage] - performing PUT at /mycontainers1/myobjects7
+2017-11-20 22:39:26,273 [INFO] [NoneStorage] - performing PUT at /mycontainers1/myobjects3
+2017-11-20 22:39:26,274 [INFO] [NoneStorage] - performing PUT at /mycontainers1/myobjects38
+2017-11-20 22:39:26,274 [INFO] [NoneStorage] - performing PUT at /mycontainers1/myobjects37
+2017-11-20 22:39:26,274 [INFO] [NoneStorage] - performing PUT at /mycontainers1/myobjects39
+2017-11-20 22:39:26,274 [INFO] [NoneStorage] - performing PUT at /mycontainers1/myobjects40
+2017-11-20 22:39:26,274 [INFO] [NoneStorage] - performing PUT at /mycontainers1/myobjects35
+2017-11-20 22:39:26,274 [INFO] [NoneStorage] - performing PUT at /mycontainers1/myobjects34
+2017-11-20 22:39:26,274 [INFO] [NoneStorage] - performing PUT at /mycontainers1/myobjects36
+2017-11-20 22:39:26,274 [INFO] [NoneStorage] - performing PUT at /mycontainers1/myobjects33
+2017-11-20 22:39:26,274 [INFO] [NoneStorage] - performing PUT at /mycontainers1/myobjects32
+2017-11-20 22:39:26,274 [INFO] [NoneStorage] - performing PUT at /mycontainers1/myobjects31
+2017-11-20 22:39:26,274 [INFO] [NoneStorage] - performing PUT at /mycontainers1/myobjects30
+2017-11-20 22:39:26,274 [INFO] [NoneStorage] - performing PUT at /mycontainers1/myobjects29
+2017-11-20 22:39:26,274 [INFO] [NoneStorage] - performing PUT at /mycontainers1/myobjects27
+2017-11-20 22:39:26,274 [INFO] [NoneStorage] - performing PUT at /mycontainers1/myobjects28
+2017-11-20 22:39:26,274 [INFO] [NoneStorage] - performing PUT at /mycontainers1/myobjects25
+2017-11-20 22:39:26,274 [INFO] [NoneStorage] - performing PUT at /mycontainers1/myobjects26
+2017-11-20 22:39:26,273 [INFO] [NoneStorage] - performing PUT at /mycontainers1/myobjects24
+2017-11-20 22:39:26,273 [INFO] [NoneStorage] - performing PUT at /mycontainers1/myobjects23
+2017-11-20 22:39:26,273 [INFO] [NoneStorage] - performing PUT at /mycontainers1/myobjects22
+2017-11-20 22:39:26,312 [INFO] [NoneStorage] - performing PUT at /mycontainers1/myobjects20
+2017-11-20 22:39:30,504 [INFO] [NoneStorage] - performing PUT at /mycontainers1/myobjects4
+2017-11-20 22:39:30,550 [INFO] [NoneStorage] - performing PUT at /mycontainers1/myobjects8
+2017-11-20 22:39:30,686 [INFO] [NoneStorage] - performing PUT at /mycontainers1/myobjects6
+2017-11-20 22:39:31,175 [INFO] [NoneStorage] - performing PUT at /mycontainers1/myobjects14
+2017-11-20 22:39:31,176 [INFO] [NoneStorage] - performing PUT at /mycontainers1/myobjects18
+2017-11-20 22:39:31,284 [INFO] [NoneStorage] - performing PUT at /mycontainers1/myobjects12
+2017-11-20 22:39:32,268 [INFO] [NoneStorage] - performing PUT at /mycontainers1/myobjects16
+2017-11-20 22:39:48,735 [INFO] [NoneStorage] - performing PUT at /mycontainers1/myobjects2
+2017-11-20 22:39:51,487 [INFO] [NoneStorage] - performing PUT at /mycontainers1/myobjects10
+2017-11-20 22:42:39,879 [ERROR] [AbstractOperator] - worker 16 fail to perform operation mycontainers1/myobjects26
+com.intel.cosbench.api.storage.StorageException: HTTP/1.1 400 Bad Request
+	at com.intel.cosbench.api.swift.SwiftStorage.createObject(SwiftStorage.java:223)
+	at com.intel.cosbench.driver.operator.Writer.doWrite(Writer.java:98)
+	at com.intel.cosbench.driver.operator.Preparer.operate(Preparer.java:97)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.intel.cosbench.client.swift.SwiftException: unexpected return from server
+	at com.intel.cosbench.client.swift.SwiftClient.storeStreamedObject(SwiftClient.java:258)
+	at com.intel.cosbench.api.swift.SwiftStorage.createObject(SwiftStorage.java:214)
+	... 12 more
+2017-11-20 22:42:40,212 [ERROR] [ErrorStatistics] - error code: 400 occurred 3 times, fail to operate: mycontainers1/myobjects26, mycontainers1/myobjects26, mycontainers1/myobjects30
+com.intel.cosbench.api.storage.StorageException: HTTP/1.1 400 Bad Request
+	at com.intel.cosbench.api.swift.SwiftStorage.createObject(SwiftStorage.java:223)
+	at com.intel.cosbench.driver.operator.Writer.doWrite(Writer.java:98)
+	at com.intel.cosbench.driver.operator.Preparer.operate(Preparer.java:97)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.intel.cosbench.client.swift.SwiftException: unexpected return from server
+	at com.intel.cosbench.client.swift.SwiftClient.storeStreamedObject(SwiftClient.java:258)
+	at com.intel.cosbench.api.swift.SwiftStorage.createObject(SwiftStorage.java:214)
+	... 12 more

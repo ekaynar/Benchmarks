@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<workload name="tesing" description="RGW-Cache Benchmarking">
+
+  <storage type="swift" />
+  
+  
+  <!-- MODIFY ME -->
+  <auth type="swauth" config="username=johndoe:swift;password=RpdNsyF4R1BCmGDFBsjci5ZPI9Gzw5YFhL0C6kWu;auth_url=http://rgw:8080/auth/1.0" />
+
+
+<!--30% = 64K, 40% = 64M,  25% = 1G, 5%=100GB -->	
+  <workflow>
+
+
+
+<workstage name="cleanup"> 
+	<work type="cleanup" workers="60" config="containers=r(1,1000);objects=r(1,1280)" /> </workstage>
+
+	<workstage name="dispose"> <work type="dispose" workers="3" config="containers=r(1,1000)" /> </workstage>
+
+
+  </workflow>
+
+</workload>

@@ -1,0 +1,959 @@
+2017-12-13 01:22:26,831 [INFO] [Log4jLogManager] - will append log to file /root/0.5.2/log/mission/M44D7736E87.log
+2017-12-13 01:22:26,864 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3336
+2017-12-13 01:22:26,864 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3496
+2017-12-13 01:22:26,865 [INFO] [NoneStorage] - performing PUT at /mycontainers182/myobjects7588
+2017-12-13 01:22:26,866 [INFO] [NoneStorage] - performing PUT at /mycontainers131/myobjects3341
+2017-12-13 01:22:26,878 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects3715
+2017-12-13 01:22:34,363 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1303
+2017-12-13 01:22:34,366 [INFO] [NoneStorage] - performing PUT at /mycontainers124/myobjects191
+2017-12-13 01:22:34,390 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2284
+2017-12-13 01:22:34,410 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2601
+2017-12-13 01:22:34,433 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1241
+2017-12-13 01:22:34,492 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1210
+2017-12-13 01:22:34,537 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3096
+2017-12-13 01:22:34,559 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1915
+2017-12-13 01:22:40,658 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects3734
+2017-12-13 01:22:41,269 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1427
+2017-12-13 01:22:41,304 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3309
+2017-12-13 01:22:41,653 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects2426
+2017-12-13 01:22:41,653 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects2426
+2017-12-13 01:22:41,680 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1608
+2017-12-13 01:22:49,237 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2563
+2017-12-13 01:22:49,648 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2973
+2017-12-13 01:22:57,338 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2222
+2017-12-13 01:22:57,758 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1111
+2017-12-13 01:23:05,239 [INFO] [NoneStorage] - performing PUT at /mycontainers127/myobjects45
+2017-12-13 01:23:05,264 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1149
+2017-12-13 01:23:05,692 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1078
+2017-12-13 01:23:05,728 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects1926
+2017-12-13 01:23:13,293 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects2974
+2017-12-13 01:24:29,546 [INFO] [NoneStorage] - performing PUT at /mycontainers172/myobjects5243
+2017-12-13 01:24:37,233 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1268
+2017-12-13 01:24:39,996 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects249
+2017-12-13 01:24:40,021 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects1004
+2017-12-13 01:24:43,508 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects2800
+2017-12-13 01:25:09,608 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3317
+2017-12-13 01:25:12,982 [INFO] [NoneStorage] - performing PUT at /mycontainers129/myobjects6600
+2017-12-13 01:25:13,029 [INFO] [NoneStorage] - performing PUT at /mycontainers153/myobjects3069
+2017-12-13 01:25:15,874 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects3521
+2017-12-13 01:25:17,600 [INFO] [NoneStorage] - performing PUT at /mycontainers138/myobjects1205
+2017-12-13 01:25:17,837 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1075
+2017-12-13 01:25:25,359 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects3373
+2017-12-13 01:25:40,873 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2927
+2017-12-13 01:25:40,893 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects2867
+2017-12-13 01:26:12,807 [INFO] [NoneStorage] - performing PUT at /mycontainers116/myobjects2157
+2017-12-13 01:26:12,822 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1655
+2017-12-13 01:26:17,963 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1253
+2017-12-13 01:26:21,486 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects3879
+2017-12-13 01:26:26,651 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2525
+2017-12-13 01:26:33,809 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1041
+2017-12-13 01:26:34,245 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3170
+2017-12-13 01:26:34,257 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects2953
+2017-12-13 01:26:34,257 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects2953
+2017-12-13 01:26:34,278 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2476
+2017-12-13 01:26:34,298 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects1960
+2017-12-13 01:26:35,990 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects290
+2017-12-13 01:26:36,039 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1836
+2017-12-13 01:26:46,572 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects2374
+2017-12-13 01:26:56,093 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects1959
+2017-12-13 01:27:09,898 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3412
+2017-12-13 01:27:17,039 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1558
+2017-12-13 01:27:18,147 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1154
+2017-12-13 01:27:18,183 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2735
+2017-12-13 01:27:18,614 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3518
+2017-12-13 01:27:24,415 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3634
+2017-12-13 01:27:24,451 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2140
+2017-12-13 01:27:27,593 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects2556
+2017-12-13 01:27:27,594 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects2556
+2017-12-13 01:27:27,603 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1921
+2017-12-13 01:27:28,715 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3528
+2017-12-13 01:27:28,731 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2347
+2017-12-13 01:27:28,750 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects2643
+2017-12-13 01:27:29,637 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1750
+2017-12-13 01:27:34,055 [INFO] [NoneStorage] - performing PUT at /mycontainers178/myobjects1513
+2017-12-13 01:27:36,221 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects2286
+2017-12-13 01:27:36,221 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects2286
+2017-12-13 01:27:36,240 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects2224
+2017-12-13 01:27:40,766 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1215
+2017-12-13 01:27:43,516 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3623
+2017-12-13 01:27:43,558 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects451
+2017-12-13 01:27:43,588 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3760
+2017-12-13 01:27:43,893 [INFO] [NoneStorage] - performing PUT at /mycontainers116/myobjects4711
+2017-12-13 01:27:43,910 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects3190
+2017-12-13 01:27:43,910 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects3190
+2017-12-13 01:27:44,123 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects2775
+2017-12-13 01:27:45,475 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1002
+2017-12-13 01:27:45,512 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1287
+2017-12-13 01:27:45,542 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects1020
+2017-12-13 01:27:45,542 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects1020
+2017-12-13 01:27:46,551 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects411
+2017-12-13 01:27:46,558 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects1569
+2017-12-13 01:27:54,362 [INFO] [NoneStorage] - performing PUT at /mycontainers140/myobjects6311
+2017-12-13 01:27:54,375 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1815
+2017-12-13 01:27:54,399 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2652
+2017-12-13 01:27:54,435 [INFO] [NoneStorage] - performing PUT at /mycontainers234/myobjects6325
+2017-12-13 01:28:31,484 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects188
+2017-12-13 01:28:31,529 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2275
+2017-12-13 01:28:36,269 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects465
+2017-12-13 01:28:36,278 [INFO] [NoneStorage] - performing PUT at /mycontainers237/myobjects1330
+2017-12-13 01:29:32,312 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2200
+2017-12-13 01:29:35,962 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1994
+2017-12-13 01:29:36,671 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2882
+2017-12-13 01:29:44,495 [INFO] [NoneStorage] - performing PUT at /mycontainers199/myobjects3781
+2017-12-13 01:29:45,407 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1526
+2017-12-13 01:29:47,218 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2171
+2017-12-13 01:29:47,257 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3284
+2017-12-13 01:29:49,828 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3271
+2017-12-13 01:29:50,126 [INFO] [NoneStorage] - performing PUT at /mycontainers103/myobjects311
+2017-12-13 01:29:50,172 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3771
+2017-12-13 01:29:50,197 [INFO] [NoneStorage] - performing PUT at /mycontainers248/myobjects7862
+2017-12-13 01:29:55,145 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2914
+2017-12-13 01:29:56,707 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3096
+2017-12-13 01:29:56,723 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2180
+2017-12-13 01:29:56,753 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1539
+2017-12-13 01:29:56,780 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1480
+2017-12-13 01:29:58,127 [INFO] [NoneStorage] - performing PUT at /mycontainers109/myobjects6937
+2017-12-13 01:29:58,142 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects2865
+2017-12-13 01:29:59,810 [INFO] [NoneStorage] - performing PUT at /mycontainers186/myobjects7111
+2017-12-13 01:30:05,774 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3340
+2017-12-13 01:30:14,368 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3963
+2017-12-13 01:30:15,131 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects4016
+2017-12-13 01:30:16,681 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1687
+2017-12-13 01:30:24,432 [INFO] [NoneStorage] - performing PUT at /mycontainers198/myobjects4252
+2017-12-13 01:30:26,432 [INFO] [NoneStorage] - performing PUT at /mycontainers135/myobjects5088
+2017-12-13 01:30:26,445 [INFO] [NoneStorage] - performing PUT at /mycontainers167/myobjects4860
+2017-12-13 01:30:29,707 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1133
+2017-12-13 01:30:31,658 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3118
+2017-12-13 01:30:31,672 [INFO] [NoneStorage] - performing PUT at /mycontainers123/myobjects2711
+2017-12-13 01:30:31,683 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3358
+2017-12-13 01:30:31,695 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1992
+2017-12-13 01:30:31,706 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2722
+2017-12-13 01:30:33,312 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects115
+2017-12-13 01:30:33,321 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects3207
+2017-12-13 01:30:40,322 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects420
+2017-12-13 01:30:40,351 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects1836
+2017-12-13 01:30:40,351 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects1836
+2017-12-13 01:30:40,376 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects349
+2017-12-13 01:30:40,383 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3924
+2017-12-13 01:30:40,397 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3041
+2017-12-13 01:30:43,714 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1521
+2017-12-13 01:30:51,985 [INFO] [NoneStorage] - performing PUT at /mycontainers182/myobjects7675
+2017-12-13 01:30:57,302 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2661
+2017-12-13 01:30:57,320 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1465
+2017-12-13 01:31:03,358 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects3910
+2017-12-13 01:31:03,358 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects3910
+2017-12-13 01:31:03,366 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2691
+2017-12-13 01:31:03,399 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2532
+2017-12-13 01:31:03,439 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects349
+2017-12-13 01:31:03,446 [INFO] [NoneStorage] - performing PUT at /mycontainers153/myobjects2505
+2017-12-13 01:31:08,081 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects1381
+2017-12-13 01:31:08,081 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects1381
+2017-12-13 01:31:08,089 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects3834
+2017-12-13 01:31:08,089 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects3834
+2017-12-13 01:31:08,110 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1761
+2017-12-13 01:31:08,120 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1415
+2017-12-13 01:31:08,146 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects3018
+2017-12-13 01:31:12,056 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2257
+2017-12-13 01:31:12,107 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1871
+2017-12-13 01:31:12,113 [INFO] [NoneStorage] - performing PUT at /mycontainers165/myobjects343
+2017-12-13 01:31:18,292 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1214
+2017-12-13 01:31:18,311 [INFO] [NoneStorage] - performing PUT at /mycontainers134/myobjects4715
+2017-12-13 01:31:18,541 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2761
+2017-12-13 01:31:27,290 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects2209
+2017-12-13 01:31:28,824 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1155
+2017-12-13 01:31:36,254 [INFO] [NoneStorage] - performing PUT at /mycontainers200/myobjects7439
+2017-12-13 01:31:44,561 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3058
+2017-12-13 01:31:47,205 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects1528
+2017-12-13 01:31:52,727 [INFO] [NoneStorage] - performing PUT at /mycontainers151/myobjects149
+2017-12-13 01:32:01,189 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects3194
+2017-12-13 01:32:01,189 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects3194
+2017-12-13 01:32:01,200 [INFO] [NoneStorage] - performing PUT at /mycontainers161/myobjects3062
+2017-12-13 01:32:04,306 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects49
+2017-12-13 01:32:04,316 [INFO] [NoneStorage] - performing PUT at /mycontainers157/myobjects3185
+2017-12-13 01:32:08,679 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1938
+2017-12-13 01:32:08,716 [INFO] [NoneStorage] - performing PUT at /mycontainers127/myobjects3992
+2017-12-13 01:32:08,739 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1505
+2017-12-13 01:32:08,788 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects3971
+2017-12-13 01:32:12,125 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects423
+2017-12-13 01:32:12,139 [INFO] [NoneStorage] - performing PUT at /mycontainers143/myobjects2648
+2017-12-13 01:32:12,165 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2086
+2017-12-13 01:32:20,843 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1769
+2017-12-13 01:32:20,863 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects2859
+2017-12-13 01:33:35,593 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects1919
+2017-12-13 01:33:55,284 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3812
+2017-12-13 01:33:55,312 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2033
+2017-12-13 01:33:55,332 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects286
+2017-12-13 01:33:55,346 [INFO] [NoneStorage] - performing PUT at /mycontainers144/myobjects598
+2017-12-13 01:33:55,371 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1602
+2017-12-13 01:34:03,036 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2536
+2017-12-13 01:34:10,949 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects238
+2017-12-13 01:34:10,962 [INFO] [NoneStorage] - performing PUT at /mycontainers183/myobjects2799
+2017-12-13 01:34:16,267 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2929
+2017-12-13 01:34:18,926 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3011
+2017-12-13 01:34:18,945 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3380
+2017-12-13 01:34:24,064 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2346
+2017-12-13 01:34:24,098 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects97
+2017-12-13 01:34:24,133 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3966
+2017-12-13 01:34:24,152 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3484
+2017-12-13 01:34:24,172 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2671
+2017-12-13 01:34:27,410 [INFO] [NoneStorage] - performing PUT at /mycontainers190/myobjects7836
+2017-12-13 01:34:27,879 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3963
+2017-12-13 01:34:27,900 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2944
+2017-12-13 01:34:27,920 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3550
+2017-12-13 01:34:32,489 [INFO] [NoneStorage] - performing PUT at /mycontainers179/myobjects7229
+2017-12-13 01:34:35,081 [INFO] [NoneStorage] - performing PUT at /mycontainers106/myobjects4635
+2017-12-13 01:34:35,120 [INFO] [NoneStorage] - performing PUT at /mycontainers214/myobjects5183
+2017-12-13 01:34:35,615 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3519
+2017-12-13 01:34:35,646 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects3022
+2017-12-13 01:34:35,646 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects3022
+2017-12-13 01:34:35,660 [INFO] [NoneStorage] - performing PUT at /mycontainers194/myobjects4480
+2017-12-13 01:34:40,508 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects486
+2017-12-13 01:34:40,518 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3022
+2017-12-13 01:34:40,561 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects71
+2017-12-13 01:34:40,574 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects3247
+2017-12-13 01:34:43,675 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects2354
+2017-12-13 01:35:41,578 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3691
+2017-12-13 01:35:41,598 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects3748
+2017-12-13 01:36:40,825 [INFO] [NoneStorage] - performing PUT at /mycontainers241/myobjects2505
+2017-12-13 01:36:46,325 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3127
+2017-12-13 01:36:49,028 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects2684
+2017-12-13 01:36:49,028 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects2684
+2017-12-13 01:36:49,040 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1385
+2017-12-13 01:36:54,358 [INFO] [NoneStorage] - performing PUT at /mycontainers134/myobjects6269
+2017-12-13 01:36:54,384 [INFO] [NoneStorage] - performing PUT at /mycontainers141/myobjects2433
+2017-12-13 01:36:54,408 [INFO] [NoneStorage] - performing PUT at /mycontainers177/myobjects5655
+2017-12-13 01:36:57,031 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3176
+2017-12-13 01:37:02,377 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3012
+2017-12-13 01:37:05,005 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3971
+2017-12-13 01:37:05,027 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects281
+2017-12-13 01:37:05,041 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1059
+2017-12-13 01:37:10,338 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1964
+2017-12-13 01:37:10,367 [INFO] [NoneStorage] - performing PUT at /mycontainers161/myobjects5117
+2017-12-13 01:37:13,002 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects3381
+2017-12-13 01:37:18,300 [INFO] [NoneStorage] - performing PUT at /mycontainers217/myobjects2520
+2017-12-13 01:37:46,604 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3578
+2017-12-13 01:37:54,438 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects3457
+2017-12-13 01:38:43,009 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3966
+2017-12-13 01:38:43,025 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1523
+2017-12-13 01:38:50,812 [INFO] [NoneStorage] - performing PUT at /mycontainers105/myobjects4553
+2017-12-13 01:38:50,837 [INFO] [NoneStorage] - performing PUT at /mycontainers111/myobjects371
+2017-12-13 01:38:50,861 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3902
+2017-12-13 01:38:50,881 [INFO] [NoneStorage] - performing PUT at /mycontainers238/myobjects2644
+2017-12-13 01:39:15,819 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2968
+2017-12-13 01:39:15,850 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects273
+2017-12-13 01:39:15,886 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects226
+2017-12-13 01:39:15,903 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects3461
+2017-12-13 01:39:20,928 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3534
+2017-12-13 01:39:28,822 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1891
+2017-12-13 01:39:28,845 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects410
+2017-12-13 01:39:28,864 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects1895
+2017-12-13 01:39:28,864 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects1895
+2017-12-13 01:39:28,879 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2670
+2017-12-13 01:39:36,724 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1290
+2017-12-13 01:39:36,757 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2091
+2017-12-13 01:39:44,511 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1243
+2017-12-13 01:39:44,546 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects2706
+2017-12-13 01:39:44,546 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects2706
+2017-12-13 01:39:44,569 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2849
+2017-12-13 01:39:44,616 [INFO] [NoneStorage] - performing PUT at /mycontainers182/myobjects3205
+2017-12-13 01:39:52,312 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3327
+2017-12-13 01:39:56,384 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects2653
+2017-12-13 01:39:59,996 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1668
+2017-12-13 01:40:07,618 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3580
+2017-12-13 01:40:07,651 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects2105
+2017-12-13 01:40:51,604 [INFO] [NoneStorage] - performing PUT at /mycontainers135/myobjects6473
+2017-12-13 01:40:51,631 [INFO] [NoneStorage] - performing PUT at /mycontainers152/myobjects2528
+2017-12-13 01:40:59,308 [INFO] [NoneStorage] - performing PUT at /mycontainers132/myobjects1442
+2017-12-13 01:40:59,336 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2906
+2017-12-13 01:41:07,098 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects2528
+2017-12-13 01:41:16,076 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1149
+2017-12-13 01:41:16,106 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3810
+2017-12-13 01:41:16,122 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1635
+2017-12-13 01:41:23,969 [INFO] [NoneStorage] - performing PUT at /mycontainers126/myobjects3677
+2017-12-13 01:41:23,993 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1885
+2017-12-13 01:41:24,021 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects442
+2017-12-13 01:41:24,054 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3695
+2017-12-13 01:41:31,793 [INFO] [NoneStorage] - performing PUT at /mycontainers215/myobjects2428
+2017-12-13 01:41:57,124 [INFO] [NoneStorage] - performing PUT at /mycontainers105/myobjects683
+2017-12-13 01:41:57,150 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2744
+2017-12-13 01:42:05,012 [INFO] [NoneStorage] - performing PUT at /mycontainers152/myobjects698
+2017-12-13 01:42:09,059 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3071
+2017-12-13 01:42:13,089 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects3663
+2017-12-13 01:42:13,089 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects3663
+2017-12-13 01:42:13,110 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2699
+2017-12-13 01:42:13,132 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3190
+2017-12-13 01:42:13,170 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2894
+2017-12-13 01:42:17,279 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3665
+2017-12-13 01:42:21,461 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects1478
+2017-12-13 01:42:21,461 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects1478
+2017-12-13 01:42:21,474 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects388
+2017-12-13 01:42:21,487 [INFO] [NoneStorage] - performing PUT at /mycontainers221/myobjects7391
+2017-12-13 01:42:25,855 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects2092
+2017-12-13 01:43:14,189 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects1841
+2017-12-13 01:43:14,190 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects1841
+2017-12-13 01:43:14,200 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects3770
+2017-12-13 01:43:39,888 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3870
+2017-12-13 01:43:47,616 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3808
+2017-12-13 01:43:55,302 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3649
+2017-12-13 01:44:03,322 [INFO] [NoneStorage] - performing PUT at /mycontainers169/myobjects5249
+2017-12-13 01:44:11,212 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3992
+2017-12-13 01:44:11,248 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2839
+2017-12-13 01:44:11,278 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects1398
+2017-12-13 01:44:28,676 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1050
+2017-12-13 01:44:28,696 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects2764
+2017-12-13 01:44:33,159 [INFO] [NoneStorage] - performing PUT at /mycontainers193/myobjects5401
+2017-12-13 01:44:41,378 [INFO] [NoneStorage] - performing PUT at /mycontainers148/myobjects2414
+2017-12-13 01:44:41,408 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3387
+2017-12-13 01:44:41,434 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1775
+2017-12-13 01:44:49,532 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1275
+2017-12-13 01:44:49,583 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3222
+2017-12-13 01:44:49,609 [INFO] [NoneStorage] - performing PUT at /mycontainers170/myobjects4106
+2017-12-13 01:44:58,702 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects453
+2017-12-13 01:44:58,722 [INFO] [NoneStorage] - performing PUT at /mycontainers185/myobjects7548
+2017-12-13 01:45:06,471 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2549
+2017-12-13 01:45:06,496 [INFO] [NoneStorage] - performing PUT at /mycontainers168/myobjects3471
+2017-12-13 01:45:15,595 [INFO] [NoneStorage] - performing PUT at /mycontainers139/myobjects1077
+2017-12-13 01:45:15,622 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects2206
+2017-12-13 01:45:21,250 [INFO] [NoneStorage] - performing PUT at /mycontainers247/myobjects7697
+2017-12-13 01:46:07,640 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects413
+2017-12-13 01:46:07,655 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects3833
+2017-12-13 01:46:24,341 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3050
+2017-12-13 01:46:32,145 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2771
+2017-12-13 01:46:32,196 [INFO] [NoneStorage] - performing PUT at /mycontainers142/myobjects6963
+2017-12-13 01:46:32,219 [INFO] [NoneStorage] - performing PUT at /mycontainers238/myobjects7941
+2017-12-13 01:47:02,074 [INFO] [NoneStorage] - performing PUT at /mycontainers175/myobjects535
+2017-12-13 01:47:06,522 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3786
+2017-12-13 01:47:06,540 [INFO] [NoneStorage] - performing PUT at /mycontainers134/myobjects7168
+2017-12-13 01:47:06,563 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects21
+2017-12-13 01:47:06,576 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2278
+2017-12-13 01:47:08,200 [INFO] [NoneStorage] - performing PUT at /mycontainers164/myobjects3193
+2017-12-13 01:47:12,701 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1717
+2017-12-13 01:47:14,948 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2199
+2017-12-13 01:47:19,436 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects3601
+2017-12-13 01:47:19,436 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects3601
+2017-12-13 01:47:19,448 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1239
+2017-12-13 01:47:21,327 [INFO] [NoneStorage] - performing PUT at /mycontainers191/myobjects4945
+2017-12-13 01:47:25,876 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects1400
+2017-12-13 01:47:25,877 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects1400
+2017-12-13 01:47:25,889 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects2076
+2017-12-13 01:47:27,624 [INFO] [NoneStorage] - performing PUT at /mycontainers215/myobjects1727
+2017-12-13 01:47:50,950 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects3745
+2017-12-13 01:47:50,950 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects3745
+2017-12-13 01:47:50,962 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2263
+2017-12-13 01:47:50,979 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects1592
+2017-12-13 01:48:08,094 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects3372
+2017-12-13 01:49:06,001 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3404
+2017-12-13 01:49:06,434 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2108
+2017-12-13 01:49:06,472 [INFO] [NoneStorage] - performing PUT at /mycontainers146/myobjects2601
+2017-12-13 01:49:06,518 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects2960
+2017-12-13 01:49:06,518 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects2960
+2017-12-13 01:49:06,528 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2972
+2017-12-13 01:49:13,695 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects1691
+2017-12-13 01:49:13,695 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects1691
+2017-12-13 01:49:13,705 [INFO] [NoneStorage] - performing PUT at /mycontainers150/myobjects1041
+2017-12-13 01:49:13,730 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3989
+2017-12-13 01:49:13,749 [INFO] [NoneStorage] - performing PUT at /mycontainers125/myobjects3173
+2017-12-13 01:49:13,774 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3965
+2017-12-13 01:49:13,798 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1401
+2017-12-13 01:49:14,294 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2462
+2017-12-13 01:49:14,328 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3917
+2017-12-13 01:49:21,479 [INFO] [NoneStorage] - performing PUT at /mycontainers156/myobjects7712
+2017-12-13 01:49:22,125 [INFO] [NoneStorage] - performing PUT at /mycontainers250/myobjects1261
+2017-12-13 01:49:29,307 [INFO] [NoneStorage] - performing PUT at /mycontainers215/myobjects1354
+2017-12-13 01:49:35,013 [INFO] [NoneStorage] - performing PUT at /mycontainers112/myobjects6945
+2017-12-13 01:49:35,038 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2119
+2017-12-13 01:49:35,074 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2668
+2017-12-13 01:49:35,117 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects2284
+2017-12-13 01:49:54,205 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects1946
+2017-12-13 01:51:11,912 [INFO] [NoneStorage] - performing PUT at /mycontainers164/myobjects7624
+2017-12-13 01:51:17,586 [INFO] [NoneStorage] - performing PUT at /mycontainers193/myobjects5074
+2017-12-13 01:51:18,080 [INFO] [NoneStorage] - performing PUT at /mycontainers171/myobjects7118
+2017-12-13 01:51:22,157 [INFO] [NoneStorage] - performing PUT at /mycontainers148/myobjects7582
+2017-12-13 01:51:22,178 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects3865
+2017-12-13 01:51:22,179 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects3865
+2017-12-13 01:51:22,191 [INFO] [NoneStorage] - performing PUT at /mycontainers153/myobjects6534
+2017-12-13 01:51:23,780 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects39
+2017-12-13 01:51:23,793 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects2402
+2017-12-13 01:51:24,300 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1236
+2017-12-13 01:51:24,324 [INFO] [NoneStorage] - performing PUT at /mycontainers231/myobjects2144
+2017-12-13 01:51:28,426 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects1479
+2017-12-13 01:51:28,426 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects1479
+2017-12-13 01:51:28,453 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3398
+2017-12-13 01:51:28,470 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2477
+2017-12-13 01:51:34,703 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects3219
+2017-12-13 01:51:34,703 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects3219
+2017-12-13 01:51:34,716 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3958
+2017-12-13 01:51:37,413 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3856
+2017-12-13 01:51:37,436 [INFO] [NoneStorage] - performing PUT at /mycontainers138/myobjects2609
+2017-12-13 01:51:37,458 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2247
+2017-12-13 01:51:40,962 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3075
+2017-12-13 01:51:43,708 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3770
+2017-12-13 01:51:47,246 [INFO] [NoneStorage] - performing PUT at /mycontainers127/myobjects7592
+2017-12-13 01:51:47,269 [INFO] [NoneStorage] - performing PUT at /mycontainers107/myobjects2108
+2017-12-13 01:51:47,290 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1333
+2017-12-13 01:51:47,329 [INFO] [NoneStorage] - performing PUT at /mycontainers195/myobjects4196
+2017-12-13 01:51:50,031 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2675
+2017-12-13 01:51:50,064 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1290
+2017-12-13 01:51:50,082 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2462
+2017-12-13 01:51:53,762 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects218
+2017-12-13 01:51:53,775 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2178
+2017-12-13 01:51:53,806 [INFO] [NoneStorage] - performing PUT at /mycontainers230/myobjects2992
+2017-12-13 01:51:56,253 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3775
+2017-12-13 01:52:02,409 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects1704
+2017-12-13 01:52:02,409 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects1704
+2017-12-13 01:52:02,421 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects3282
+2017-12-13 01:53:01,754 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3167
+2017-12-13 01:53:02,726 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects425
+2017-12-13 01:53:02,737 [INFO] [NoneStorage] - performing PUT at /mycontainers219/myobjects5965
+2017-12-13 01:53:07,199 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3018
+2017-12-13 01:53:11,072 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1707
+2017-12-13 01:53:11,099 [INFO] [NoneStorage] - performing PUT at /mycontainers157/myobjects2524
+2017-12-13 01:53:16,242 [INFO] [NoneStorage] - performing PUT at /mycontainers224/myobjects94
+2017-12-13 01:53:30,809 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2576
+2017-12-13 01:53:35,523 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2327
+2017-12-13 01:53:35,551 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3751
+2017-12-13 01:53:35,568 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1079
+2017-12-13 01:53:35,599 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3731
+2017-12-13 01:53:38,331 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects100
+2017-12-13 01:53:38,342 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3636
+2017-12-13 01:53:42,745 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1462
+2017-12-13 01:53:44,372 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3923
+2017-12-13 01:53:49,413 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects141
+2017-12-13 01:53:49,421 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects1750
+2017-12-13 01:53:50,390 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects2068
+2017-12-13 01:54:40,574 [INFO] [NoneStorage] - performing PUT at /mycontainers240/myobjects1365
+2017-12-13 01:54:51,924 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects3506
+2017-12-13 01:54:51,925 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects3506
+2017-12-13 01:54:51,946 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1872
+2017-12-13 01:54:51,963 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects2881
+2017-12-13 01:55:24,562 [INFO] [NoneStorage] - performing PUT at /mycontainers170/myobjects2048
+2017-12-13 01:55:29,103 [INFO] [NoneStorage] - performing PUT at /mycontainers182/myobjects975
+2017-12-13 01:55:30,298 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects3557
+2017-12-13 01:55:35,251 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects3294
+2017-12-13 01:55:35,251 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects3294
+2017-12-13 01:55:35,265 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects1593
+2017-12-13 01:56:13,994 [INFO] [NoneStorage] - performing PUT at /mycontainers119/myobjects6797
+2017-12-13 01:56:14,011 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1601
+2017-12-13 01:56:14,024 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects1722
+2017-12-13 01:56:32,823 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2129
+2017-12-13 01:56:39,230 [INFO] [NoneStorage] - performing PUT at /mycontainers200/myobjects1737
+2017-12-13 01:56:44,899 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3777
+2017-12-13 01:56:44,914 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects2001
+2017-12-13 01:56:44,914 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects2001
+2017-12-13 01:56:44,927 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2402
+2017-12-13 01:56:51,180 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1630
+2017-12-13 01:56:51,198 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3711
+2017-12-13 01:56:58,271 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects1462
+2017-12-13 01:57:09,476 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2036
+2017-12-13 01:57:16,866 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3503
+2017-12-13 01:57:19,042 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects173
+2017-12-13 01:57:19,079 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3821
+2017-12-13 01:57:23,861 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2817
+2017-12-13 01:57:25,698 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2714
+2017-12-13 01:57:25,729 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1787
+2017-12-13 01:57:30,437 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects3061
+2017-12-13 01:57:30,437 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects3061
+2017-12-13 01:57:30,450 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects1062
+2017-12-13 01:57:30,450 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects1062
+2017-12-13 01:57:30,464 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2554
+2017-12-13 01:57:30,498 [INFO] [NoneStorage] - performing PUT at /mycontainers111/myobjects3907
+2017-12-13 01:57:30,521 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2337
+2017-12-13 01:57:32,395 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2235
+2017-12-13 01:57:32,425 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2495
+2017-12-13 01:57:37,137 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1095
+2017-12-13 01:57:39,024 [INFO] [NoneStorage] - performing PUT at /mycontainers103/myobjects5974
+2017-12-13 01:57:39,048 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2929
+2017-12-13 01:57:43,733 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3445
+2017-12-13 01:57:45,673 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1562
+2017-12-13 01:57:50,505 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2955
+2017-12-13 01:57:52,412 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects1418
+2017-12-13 01:57:53,096 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects482
+2017-12-13 01:57:53,109 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3933
+2017-12-13 01:57:53,126 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2865
+2017-12-13 01:57:53,152 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects2346
+2017-12-13 01:57:53,152 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects2346
+2017-12-13 01:57:53,164 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3258
+2017-12-13 01:57:57,408 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2154
+2017-12-13 01:57:59,964 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3069
+2017-12-13 01:58:00,023 [INFO] [NoneStorage] - performing PUT at /mycontainers153/myobjects7014
+2017-12-13 01:58:04,094 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects2485
+2017-12-13 01:58:06,164 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2878
+2017-12-13 01:58:12,617 [INFO] [NoneStorage] - performing PUT at /mycontainers247/myobjects1268
+2017-12-13 01:58:42,087 [INFO] [NoneStorage] - performing PUT at /mycontainers148/myobjects1048
+2017-12-13 01:58:42,110 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2301
+2017-12-13 01:58:42,143 [INFO] [NoneStorage] - performing PUT at /mycontainers114/myobjects5401
+2017-12-13 01:58:42,183 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1866
+2017-12-13 01:58:48,682 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3343
+2017-12-13 01:58:48,719 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3830
+2017-12-13 01:58:56,186 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects2963
+2017-12-13 01:58:56,186 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects2963
+2017-12-13 01:58:56,200 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1661
+2017-12-13 01:58:56,214 [INFO] [NoneStorage] - performing PUT at /mycontainers101/myobjects6509
+2017-12-13 01:58:56,265 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2835
+2017-12-13 01:59:02,741 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1751
+2017-12-13 01:59:09,176 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1575
+2017-12-13 01:59:09,213 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2634
+2017-12-13 01:59:09,257 [INFO] [NoneStorage] - performing PUT at /mycontainers165/myobjects569
+2017-12-13 01:59:15,453 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects3054
+2017-12-13 01:59:15,454 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects3054
+2017-12-13 01:59:15,484 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects3363
+2017-12-13 01:59:15,485 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects3363
+2017-12-13 01:59:15,503 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects1819
+2017-12-13 01:59:15,503 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects1819
+2017-12-13 01:59:15,540 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3025
+2017-12-13 01:59:22,060 [INFO] [NoneStorage] - performing PUT at /mycontainers102/myobjects3043
+2017-12-13 01:59:22,082 [INFO] [NoneStorage] - performing PUT at /mycontainers122/myobjects1952
+2017-12-13 01:59:22,107 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects360
+2017-12-13 01:59:22,115 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3777
+2017-12-13 01:59:28,889 [INFO] [NoneStorage] - performing PUT at /mycontainers171/myobjects4643
+2017-12-13 01:59:34,333 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2126
+2017-12-13 01:59:35,294 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects1776
+2017-12-13 01:59:41,268 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects1705
+2017-12-13 01:59:41,268 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects1705
+2017-12-13 01:59:41,281 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects2850
+2017-12-13 01:59:41,281 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects2850
+2017-12-13 01:59:41,294 [INFO] [NoneStorage] - performing PUT at /mycontainers205/myobjects201
+2017-12-13 01:59:48,506 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3924
+2017-12-13 01:59:48,524 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects2150
+2017-12-13 01:59:48,554 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects2430
+2017-12-13 01:59:48,554 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects2430
+2017-12-13 01:59:48,566 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2586
+2017-12-13 01:59:48,583 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects2460
+2017-12-13 02:01:19,940 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects1464
+2017-12-13 02:01:21,812 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1775
+2017-12-13 02:01:28,604 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects361
+2017-12-13 02:01:28,621 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2635
+2017-12-13 02:01:33,680 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2417
+2017-12-13 02:01:34,927 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects2206
+2017-12-13 02:01:35,736 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3387
+2017-12-13 02:01:40,320 [INFO] [NoneStorage] - performing PUT at /mycontainers107/myobjects4864
+2017-12-13 02:01:40,344 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects2210
+2017-12-13 02:01:40,344 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects2210
+2017-12-13 02:01:40,356 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects382
+2017-12-13 02:01:40,364 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3737
+2017-12-13 02:01:42,830 [INFO] [NoneStorage] - performing PUT at /mycontainers105/myobjects774
+2017-12-13 02:01:42,853 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2468
+2017-12-13 02:01:47,100 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3581
+2017-12-13 02:01:47,118 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1525
+2017-12-13 02:01:49,807 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3839
+2017-12-13 02:01:49,833 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1430
+2017-12-13 02:01:53,995 [INFO] [NoneStorage] - performing PUT at /mycontainers216/myobjects1540
+2017-12-13 02:01:56,617 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2871
+2017-12-13 02:02:03,238 [INFO] [NoneStorage] - performing PUT at /mycontainers137/myobjects6540
+2017-12-13 02:02:03,259 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects1297
+2017-12-13 02:02:03,259 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects1297
+2017-12-13 02:02:03,295 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1320
+2017-12-13 02:02:03,310 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2164
+2017-12-13 02:02:10,007 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects432
+2017-12-13 02:02:10,017 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects2768
+2017-12-13 02:03:05,935 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects3481
+2017-12-13 02:03:19,934 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects2175
+2017-12-13 02:03:36,225 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3416
+2017-12-13 02:03:36,243 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2557
+2017-12-13 02:03:36,269 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1746
+2017-12-13 02:03:36,287 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects2930
+2017-12-13 02:03:55,072 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1778
+2017-12-13 02:03:55,090 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects417
+2017-12-13 02:03:55,128 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects3983
+2017-12-13 02:03:55,128 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects3983
+2017-12-13 02:03:55,141 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1466
+2017-12-13 02:03:55,186 [INFO] [NoneStorage] - performing PUT at /mycontainers163/myobjects4880
+2017-12-13 02:04:01,880 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1324
+2017-12-13 02:04:01,898 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects2065
+2017-12-13 02:04:52,395 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects395
+2017-12-13 02:04:52,409 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects2205
+2017-12-13 02:05:06,138 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2351
+2017-12-13 02:05:12,595 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects2711
+2017-12-13 02:05:21,667 [INFO] [NoneStorage] - performing PUT at /mycontainers101/myobjects707
+2017-12-13 02:05:21,705 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3588
+2017-12-13 02:05:21,748 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3663
+2017-12-13 02:05:28,522 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3116
+2017-12-13 02:05:35,601 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2743
+2017-12-13 02:05:35,620 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects37
+2017-12-13 02:05:35,629 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3125
+2017-12-13 02:05:35,647 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1981
+2017-12-13 02:05:35,673 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects3459
+2017-12-13 02:05:45,814 [INFO] [NoneStorage] - performing PUT at /mycontainers186/myobjects6316
+2017-12-13 02:05:51,792 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1575
+2017-12-13 02:05:51,810 [INFO] [NoneStorage] - performing PUT at /mycontainers155/myobjects4109
+2017-12-13 02:05:58,210 [INFO] [NoneStorage] - performing PUT at /mycontainers192/myobjects5071
+2017-12-13 02:06:04,659 [INFO] [NoneStorage] - performing PUT at /mycontainers217/myobjects2261
+2017-12-13 02:06:37,200 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects2467
+2017-12-13 02:06:51,133 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1486
+2017-12-13 02:06:57,308 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3169
+2017-12-13 02:06:57,335 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects488
+2017-12-13 02:06:57,346 [INFO] [NoneStorage] - performing PUT at /mycontainers233/myobjects2963
+2017-12-13 02:07:14,589 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1458
+2017-12-13 02:07:21,078 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects3385
+2017-12-13 02:07:46,245 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2236
+2017-12-13 02:07:52,845 [INFO] [NoneStorage] - performing PUT at /mycontainers159/myobjects4744
+2017-12-13 02:07:59,438 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1608
+2017-12-13 02:08:05,950 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects197
+2017-12-13 02:08:05,981 [INFO] [NoneStorage] - performing PUT at /mycontainers146/myobjects62
+2017-12-13 02:08:06,003 [INFO] [NoneStorage] - performing PUT at /mycontainers155/myobjects5856
+2017-12-13 02:08:12,599 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3084
+2017-12-13 02:08:12,618 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects289
+2017-12-13 02:08:12,629 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2814
+2017-12-13 02:08:12,652 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1431
+2017-12-13 02:08:19,130 [INFO] [NoneStorage] - performing PUT at /mycontainers164/myobjects7349
+2017-12-13 02:08:19,176 [INFO] [NoneStorage] - performing PUT at /mycontainers107/myobjects7724
+2017-12-13 02:08:19,199 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects1617
+2017-12-13 02:08:25,684 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1362
+2017-12-13 02:08:32,167 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3088
+2017-12-13 02:08:38,714 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3209
+2017-12-13 02:08:39,208 [INFO] [NoneStorage] - performing PUT at /mycontainers172/myobjects5593
+2017-12-13 02:08:45,304 [INFO] [NoneStorage] - performing PUT at /mycontainers113/myobjects680
+2017-12-13 02:08:45,327 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3939
+2017-12-13 02:08:45,820 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3852
+2017-12-13 02:08:45,837 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2774
+2017-12-13 02:08:45,883 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects1349
+2017-12-13 02:08:51,833 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3820
+2017-12-13 02:08:51,850 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3887
+2017-12-13 02:08:58,493 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects30
+2017-12-13 02:08:58,506 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3749
+2017-12-13 02:09:02,852 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects1783
+2017-12-13 02:09:05,125 [INFO] [NoneStorage] - performing PUT at /mycontainers131/myobjects1754
+2017-12-13 02:09:05,148 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3494
+2017-12-13 02:09:11,839 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2732
+2017-12-13 02:09:11,897 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects3484
+2017-12-13 02:10:01,768 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3012
+2017-12-13 02:10:01,801 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects15
+2017-12-13 02:10:01,813 [INFO] [NoneStorage] - performing PUT at /mycontainers186/myobjects3784
+2017-12-13 02:10:08,497 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects336
+2017-12-13 02:10:08,508 [INFO] [NoneStorage] - performing PUT at /mycontainers156/myobjects5720
+2017-12-13 02:10:15,158 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects2621
+2017-12-13 02:10:29,070 [INFO] [NoneStorage] - performing PUT at /mycontainers119/myobjects4968
+2017-12-13 02:10:29,093 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects2019
+2017-12-13 02:10:29,093 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects2019
+2017-12-13 02:10:29,104 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3430
+2017-12-13 02:10:29,131 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects3515
+2017-12-13 02:10:29,131 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects3515
+2017-12-13 02:10:29,143 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1651
+2017-12-13 02:10:35,740 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2115
+2017-12-13 02:10:42,375 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3600
+2017-12-13 02:10:46,214 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects1702
+2017-12-13 02:10:49,031 [INFO] [NoneStorage] - performing PUT at /mycontainers109/myobjects494
+2017-12-13 02:10:49,056 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects433
+2017-12-13 02:10:49,064 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2964
+2017-12-13 02:10:49,113 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects3222
+2017-12-13 02:10:55,209 [INFO] [NoneStorage] - performing PUT at /mycontainers168/myobjects6450
+2017-12-13 02:11:01,224 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2067
+2017-12-13 02:11:01,242 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2218
+2017-12-13 02:11:01,259 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects359
+2017-12-13 02:11:01,268 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1535
+2017-12-13 02:11:01,301 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects161
+2017-12-13 02:11:01,310 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects71
+2017-12-13 02:11:01,323 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects2463
+2017-12-13 02:11:58,482 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1184
+2017-12-13 02:12:05,142 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1320
+2017-12-13 02:12:11,813 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects55
+2017-12-13 02:12:11,826 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2949
+2017-12-13 02:12:11,865 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1672
+2017-12-13 02:12:11,906 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2253
+2017-12-13 02:12:18,569 [INFO] [NoneStorage] - performing PUT at /mycontainers140/myobjects6318
+2017-12-13 02:12:18,621 [INFO] [NoneStorage] - performing PUT at /mycontainers156/myobjects7787
+2017-12-13 02:12:25,291 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3067
+2017-12-13 02:12:25,310 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2257
+2017-12-13 02:12:25,327 [INFO] [NoneStorage] - performing PUT at /mycontainers184/myobjects1923
+2017-12-13 02:12:29,105 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects2501
+2017-12-13 02:12:29,105 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects2501
+2017-12-13 02:12:29,119 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects166
+2017-12-13 02:12:29,130 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2278
+2017-12-13 02:12:29,159 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3951
+2017-12-13 02:12:29,176 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects1623
+2017-12-13 02:12:32,011 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2365
+2017-12-13 02:12:32,230 [INFO] [NoneStorage] - performing PUT at /mycontainers224/myobjects3171
+2017-12-13 02:12:38,632 [INFO] [NoneStorage] - performing PUT at /mycontainers145/myobjects948
+2017-12-13 02:12:38,656 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects1488
+2017-12-13 02:12:38,656 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects1488
+2017-12-13 02:12:38,669 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3876
+2017-12-13 02:12:44,282 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1073
+2017-12-13 02:12:45,159 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1950
+2017-12-13 02:12:45,177 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2627
+2017-12-13 02:12:50,927 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects3062
+2017-12-13 02:12:50,927 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects3062
+2017-12-13 02:12:50,941 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects3722
+2017-12-13 02:12:51,811 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1690
+2017-12-13 02:12:51,854 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2409
+2017-12-13 02:12:51,884 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects1226
+2017-12-13 02:12:51,884 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects1226
+2017-12-13 02:12:51,897 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects2978
+2017-12-13 02:14:12,599 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects2224
+2017-12-13 02:14:12,599 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects2224
+2017-12-13 02:14:12,613 [INFO] [NoneStorage] - performing PUT at /mycontainers164/myobjects5937
+2017-12-13 02:14:15,882 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3982
+2017-12-13 02:14:15,900 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects2596
+2017-12-13 02:14:15,901 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects2596
+2017-12-13 02:14:15,909 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3724
+2017-12-13 02:14:19,222 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1635
+2017-12-13 02:14:19,248 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3541
+2017-12-13 02:14:19,265 [INFO] [NoneStorage] - performing PUT at /mycontainers149/myobjects7405
+2017-12-13 02:14:19,290 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3693
+2017-12-13 02:14:22,518 [INFO] [NoneStorage] - performing PUT at /mycontainers165/myobjects3158
+2017-12-13 02:14:25,942 [INFO] [NoneStorage] - performing PUT at /mycontainers128/myobjects5222
+2017-12-13 02:14:25,965 [INFO] [NoneStorage] - performing PUT at /mycontainers182/myobjects3978
+2017-12-13 02:14:29,185 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3469
+2017-12-13 02:14:29,203 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1603
+2017-12-13 02:14:32,542 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects3397
+2017-12-13 02:14:34,602 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3523
+2017-12-13 02:14:35,660 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2233
+2017-12-13 02:14:35,679 [INFO] [NoneStorage] - performing PUT at /mycontainers101/myobjects642
+2017-12-13 02:14:35,703 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1831
+2017-12-13 02:14:35,733 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects2656
+2017-12-13 02:14:35,733 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects2656
+2017-12-13 02:14:35,747 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2259
+2017-12-13 02:14:41,231 [INFO] [NoneStorage] - performing PUT at /mycontainers111/myobjects6220
+2017-12-13 02:14:41,254 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects171
+2017-12-13 02:14:41,267 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3381
+2017-12-13 02:14:42,328 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2738
+2017-12-13 02:14:42,358 [INFO] [NoneStorage] - performing PUT at /mycontainers180/myobjects3501
+2017-12-13 02:14:42,359 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1322
+2017-12-13 02:14:47,825 [INFO] [NoneStorage] - performing PUT at /mycontainers245/myobjects719
+2017-12-13 02:14:48,921 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3640
+2017-12-13 02:14:48,952 [INFO] [NoneStorage] - performing PUT at /mycontainers199/myobjects5330
+2017-12-13 02:14:55,414 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2864
+2017-12-13 02:14:55,470 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2572
+2017-12-13 02:15:01,856 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects1233
+2017-12-13 02:15:01,894 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3213
+2017-12-13 02:15:08,424 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects219
+2017-12-13 02:15:08,433 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1413
+2017-12-13 02:15:14,993 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1332
+2017-12-13 02:15:15,011 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2649
+2017-12-13 02:15:15,042 [INFO] [NoneStorage] - performing PUT at /mycontainers189/myobjects1017
+2017-12-13 02:15:21,968 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects3541
+2017-12-13 02:15:21,968 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects3541
+2017-12-13 02:15:21,982 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects1562
+2017-12-13 02:16:14,872 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3157
+2017-12-13 02:16:14,890 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1654
+2017-12-13 02:16:14,917 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects2660
+2017-12-13 02:16:29,613 [INFO] [NoneStorage] - performing PUT at /mycontainers160/myobjects7068
+2017-12-13 02:16:36,325 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2638
+2017-12-13 02:16:42,951 [INFO] [NoneStorage] - performing PUT at /mycontainers125/myobjects6053
+2017-12-13 02:16:42,975 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2523
+2017-12-13 02:16:44,196 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1308
+2017-12-13 02:16:49,504 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects3110
+2017-12-13 02:16:49,505 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects3110
+2017-12-13 02:16:49,517 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2408
+2017-12-13 02:16:49,537 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects2676
+2017-12-13 02:16:49,537 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects2676
+2017-12-13 02:16:49,549 [INFO] [NoneStorage] - performing PUT at /mycontainers161/myobjects5426
+2017-12-13 02:16:50,867 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3104
+2017-12-13 02:16:56,160 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1736
+2017-12-13 02:16:56,179 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2673
+2017-12-13 02:16:56,196 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects2469
+2017-12-13 02:16:56,196 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects2469
+2017-12-13 02:16:56,208 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects1575
+2017-12-13 02:16:56,208 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects1575
+2017-12-13 02:16:56,221 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects2767
+2017-12-13 02:16:56,221 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects2767
+2017-12-13 02:16:56,235 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1252
+2017-12-13 02:16:57,439 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects2628
+2017-12-13 02:17:02,924 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects3043
+2017-12-13 02:17:02,924 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects3043
+2017-12-13 02:17:02,938 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2081
+2017-12-13 02:17:05,369 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects165
+2017-12-13 02:17:05,378 [INFO] [NoneStorage] - performing PUT at /mycontainers172/myobjects1394
+2017-12-13 02:17:09,584 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2014
+2017-12-13 02:17:12,012 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2552
+2017-12-13 02:17:12,029 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects2008
+2017-12-13 02:17:16,232 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3573
+2017-12-13 02:17:16,250 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1484
+2017-12-13 02:17:16,266 [INFO] [NoneStorage] - performing PUT at /mycontainers207/myobjects7642
+2017-12-13 02:17:57,941 [INFO] [NoneStorage] - performing PUT at /mycontainers165/myobjects2643
+2017-12-13 02:18:04,495 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects1928
+2017-12-13 02:18:40,422 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects476
+2017-12-13 02:18:40,435 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2724
+2017-12-13 02:18:47,116 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1510
+2017-12-13 02:18:53,822 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2077
+2017-12-13 02:18:53,840 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1646
+2017-12-13 02:18:53,857 [INFO] [NoneStorage] - performing PUT at /mycontainers169/myobjects4314
+2017-12-13 02:18:54,693 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects2490
+2017-12-13 02:18:54,694 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects2490
+2017-12-13 02:18:54,706 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2318
+2017-12-13 02:18:58,358 [INFO] [NoneStorage] - performing PUT at /mycontainers134/myobjects1909
+2017-12-13 02:18:58,381 [INFO] [NoneStorage] - performing PUT at /mycontainers239/myobjects904
+2017-12-13 02:19:00,551 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects1073
+2017-12-13 02:19:01,427 [INFO] [NoneStorage] - performing PUT at /mycontainers119/myobjects7996
+2017-12-13 02:19:01,449 [INFO] [NoneStorage] - performing PUT at /mycontainers160/myobjects2803
+2017-12-13 02:19:08,199 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects229
+2017-12-13 02:19:08,218 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1952
+2017-12-13 02:19:14,866 [INFO] [NoneStorage] - performing PUT at /mycontainers160/myobjects6913
+2017-12-13 02:19:21,582 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects1784
+2017-12-13 02:19:48,970 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects1507
+2017-12-13 02:20:41,381 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects32
+2017-12-13 02:20:41,395 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2129
+2017-12-13 02:20:43,844 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects3918
+2017-12-13 02:20:43,844 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects3918
+2017-12-13 02:20:43,857 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1029
+2017-12-13 02:20:43,874 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects3108
+2017-12-13 02:20:43,874 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects3108
+2017-12-13 02:20:43,886 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects2
+2017-12-13 02:20:43,898 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects343
+2017-12-13 02:20:43,907 [INFO] [NoneStorage] - performing PUT at /mycontainers110/myobjects274
+2017-12-13 02:20:43,932 [INFO] [NoneStorage] - performing PUT at /mycontainers126/myobjects2533
+2017-12-13 02:20:43,955 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects4017
+2017-12-13 02:20:43,972 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1832
+2017-12-13 02:20:43,990 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects2448
+2017-12-13 02:20:48,092 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2607
+2017-12-13 02:20:54,766 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1149
+2017-12-13 02:21:01,511 [INFO] [NoneStorage] - performing PUT at /mycontainers241/myobjects4343
+2017-12-13 02:21:04,929 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3399
+2017-12-13 02:21:04,948 [INFO] [NoneStorage] - performing PUT at /mycontainers147/myobjects659
+2017-12-13 02:21:04,972 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1935
+2017-12-13 02:21:05,013 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1701
+2017-12-13 02:21:05,054 [INFO] [NoneStorage] - performing PUT at /mycontainers168/myobjects6257
+2017-12-13 02:21:11,809 [INFO] [NoneStorage] - performing PUT at /mycontainers182/myobjects4346
+2017-12-13 02:21:18,461 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects1744
+2017-12-13 02:21:18,462 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects1744
+2017-12-13 02:21:18,475 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3970
+2017-12-13 02:21:18,510 [WARN] [AbstractOperator] - listerrr: mycontainers1/myobjects3070
+2017-12-13 02:21:18,511 [INFO] [NoneStorage] - performing LIST at /mycontainers1/myobjects3070
+2017-12-13 02:21:18,523 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3923
+2017-12-13 02:21:18,539 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1298
+2017-12-13 02:21:25,185 [INFO] [NoneStorage] - performing PUT at /mycontainers121/myobjects7695
+2017-12-13 02:21:25,208 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects3659
+2017-12-13 02:21:31,819 [INFO] [NoneStorage] - performing PUT at /mycontainers133/myobjects2828
+2017-12-13 02:21:31,843 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2883
+2017-12-13 02:21:32,840 [INFO] [NoneStorage] - performing PUT at /mycontainers122/myobjects1637
+2017-12-13 02:21:32,861 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2150
+2017-12-13 02:21:32,878 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects389
+2017-12-13 02:21:32,904 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2414
+2017-12-13 02:21:38,552 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1439
+2017-12-13 02:21:38,581 [INFO] [NoneStorage] - performing PUT at /mycontainers229/myobjects3988
+2017-12-13 02:21:39,598 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects1869
+2017-12-13 02:21:46,192 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2723
+2017-12-13 02:21:46,210 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects2430
+2017-12-13 02:21:46,227 [INFO] [NoneStorage] - performing DELETE at /mycontainers1/myobjects312
+2017-12-13 02:21:46,239 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3548
+2017-12-13 02:21:46,263 [INFO] [NoneStorage] - performing GET at /mycontainers41/myobjects2664
+2017-12-13 02:21:52,996 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects3798
+2017-12-13 02:21:53,044 [INFO] [NoneStorage] - performing GET at /mycontainers1/myobjects1750
+2017-12-13 02:21:53,101 [INFO] [NoneStorage] - performing GET at /mycontainers81/myobjects2786
+2017-12-13 02:22:37,868 [ERROR] [AbstractOperator] - worker 4 fail to perform operation mycontainers81/myobjects2786
+java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.read(SocketInputStream.java:204)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.read(AbstractSessionInputBuffer.java:187)
+	at org.apache.http.impl.io.ContentLengthInputStream.read(ContentLengthInputStream.java:176)
+	at org.apache.http.impl.io.ContentLengthInputStream.read(ContentLengthInputStream.java:197)
+	at org.apache.http.conn.EofSensorInputStream.read(EofSensorInputStream.java:155)
+	at org.apache.commons.io.IOUtils.copyLarge(IOUtils.java:1025)
+	at com.intel.cosbench.driver.operator.Reader.copyLarge(Reader.java:120)
+	at com.intel.cosbench.driver.operator.Reader.doRead(Reader.java:91)
+	at com.intel.cosbench.driver.operator.Reader.operate(Reader.java:69)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2017-12-13 02:22:37,868 [ERROR] [AbstractOperator] - worker 3 fail to perform operation mycontainers229/myobjects3988
+com.intel.cosbench.api.storage.StorageException: org.apache.http.client.ClientProtocolException
+	at com.intel.cosbench.api.swift.SwiftStorage.createObject(SwiftStorage.java:225)
+	at com.intel.cosbench.driver.operator.Writer.doWrite(Writer.java:98)
+	at com.intel.cosbench.driver.operator.Writer.operate(Writer.java:79)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.http.client.ClientProtocolException
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:822)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:754)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:732)
+	at com.intel.cosbench.client.swift.SwiftClient.storeStreamedObject(SwiftClient.java:249)
+	at com.intel.cosbench.api.swift.SwiftStorage.createObject(SwiftStorage.java:214)
+	... 12 more
+Caused by: org.apache.http.client.NonRepeatableRequestException: Cannot retry request with a non-repeatable request entity.  The cause lists the reason the original request failed.
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:621)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:464)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	... 16 more
+Caused by: java.net.SocketException: Socket closed
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:118)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at org.apache.http.impl.io.AbstractSessionOutputBuffer.write(AbstractSessionOutputBuffer.java:153)
+	at org.apache.http.impl.io.ContentLengthOutputStream.write(ContentLengthOutputStream.java:114)
+	at org.apache.http.entity.InputStreamEntity.writeTo(InputStreamEntity.java:89)
+	at org.apache.http.entity.HttpEntityWrapper.writeTo(HttpEntityWrapper.java:96)
+	at org.apache.http.impl.client.EntityEnclosingRequestWrapper$EntityWrapper.writeTo(EntityEnclosingRequestWrapper.java:108)
+	at org.apache.http.impl.entity.EntitySerializer.serialize(EntitySerializer.java:120)
+	at org.apache.http.impl.AbstractHttpClientConnection.sendRequestEntity(AbstractHttpClientConnection.java:264)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.sendRequestEntity(AbstractClientConnAdapter.java:224)
+	at org.apache.http.protocol.HttpRequestExecutor.doSendRequest(HttpRequestExecutor.java:255)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:123)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:647)
+	... 18 more
+2017-12-13 02:22:37,870 [ERROR] [ErrorStatistics] - error code: N/A occurred 3 times, fail to operate: mycontainers229/myobjects3988, mycontainers229/myobjects3988, mycontainers241/myobjects4343
+com.intel.cosbench.api.storage.StorageException: org.apache.http.client.ClientProtocolException
+	at com.intel.cosbench.api.swift.SwiftStorage.createObject(SwiftStorage.java:225)
+	at com.intel.cosbench.driver.operator.Writer.doWrite(Writer.java:98)
+	at com.intel.cosbench.driver.operator.Writer.operate(Writer.java:79)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.http.client.ClientProtocolException
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:822)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:754)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:732)
+	at com.intel.cosbench.client.swift.SwiftClient.storeStreamedObject(SwiftClient.java:249)
+	at com.intel.cosbench.api.swift.SwiftStorage.createObject(SwiftStorage.java:214)
+	... 12 more
+Caused by: org.apache.http.client.NonRepeatableRequestException: Cannot retry request with a non-repeatable request entity.  The cause lists the reason the original request failed.
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:621)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:464)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	... 16 more
+Caused by: java.net.SocketException: Socket closed
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:118)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at org.apache.http.impl.io.AbstractSessionOutputBuffer.write(AbstractSessionOutputBuffer.java:153)
+	at org.apache.http.impl.io.ContentLengthOutputStream.write(ContentLengthOutputStream.java:114)
+	at org.apache.http.entity.InputStreamEntity.writeTo(InputStreamEntity.java:89)
+	at org.apache.http.entity.HttpEntityWrapper.writeTo(HttpEntityWrapper.java:96)
+	at org.apache.http.impl.client.EntityEnclosingRequestWrapper$EntityWrapper.writeTo(EntityEnclosingRequestWrapper.java:108)
+	at org.apache.http.impl.entity.EntitySerializer.serialize(EntitySerializer.java:120)
+	at org.apache.http.impl.AbstractHttpClientConnection.sendRequestEntity(AbstractHttpClientConnection.java:264)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.sendRequestEntity(AbstractClientConnAdapter.java:224)
+	at org.apache.http.protocol.HttpRequestExecutor.doSendRequest(HttpRequestExecutor.java:255)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:123)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:647)
+	... 18 more
+2017-12-13 02:22:37,871 [ERROR] [ErrorStatistics] - error code: N/A occurred 2 times, fail to operate: mycontainers81/myobjects2786, mycontainers81/myobjects2786
+java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.read(SocketInputStream.java:204)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.read(AbstractSessionInputBuffer.java:187)
+	at org.apache.http.impl.io.ContentLengthInputStream.read(ContentLengthInputStream.java:176)
+	at org.apache.http.impl.io.ContentLengthInputStream.read(ContentLengthInputStream.java:197)
+	at org.apache.http.conn.EofSensorInputStream.read(EofSensorInputStream.java:155)
+	at org.apache.commons.io.IOUtils.copyLarge(IOUtils.java:1025)
+	at com.intel.cosbench.driver.operator.Reader.copyLarge(Reader.java:120)
+	at com.intel.cosbench.driver.operator.Reader.doRead(Reader.java:91)
+	at com.intel.cosbench.driver.operator.Reader.operate(Reader.java:69)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
