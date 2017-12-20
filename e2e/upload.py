@@ -21,10 +21,9 @@ def swift(file,lenght):
 #	print file
 	with open(file, 'wb') as fout:
         	fout.write(os.urandom(int(lenght)))
-#	command= "swift -A http://localhost:80/auth/1.0 -U hadoop:swift -K rLSuhyfNbWZBWRFzXMhqzgHIssyaKa01aEPUKTgh upload sort128G "+ file
-#	process = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE)
-#	process.wait()
-	time.sleep(2)
+	command= "swift -A http://localhost:80/auth/1.0 -U hadoop:swift -K rLSuhyfNbWZBWRFzXMhqzgHIssyaKa01aEPUKTgh upload sort128G "+ file
+	process = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE)
+	process.wait()
 	os.remove(file)
 def product_helper(args):
 	return swift(*args)
@@ -37,8 +36,6 @@ def calculateParallel(key,size):
 
 def upload(argv):
 	fd = open(sys.argv[1], 'r')
-	filename=1
-	jcount=1
 	#hash={}
 	count =1
   
@@ -48,10 +45,10 @@ def upload(argv):
 			dict[value[1]]=value[2].replace('\n','')
 			filenames.append(value[1])
 			sizes.append(dict[value[1]])
-#			print value[1],value[2]
-		if count ==1000:
-			break;
+			print value[1],value[2]
 		count+=1
+#		if count==20:
+#			break;
         fd.close()
 	
 	calculateParallel(filenames,sizes)
