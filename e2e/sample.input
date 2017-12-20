@@ -1,0 +1,10 @@
+2017-04-19 00 http://cfssim2rs1abc.com:10010/celfs/read/prod_snapshot_events/25199/25199/data/US/OA_RESULT_ZERO/2014/09/03/data.zip?offset=0&length=53377
+2017-04-19 00 http://cfssim2rs3abc.com:10010/celfs/read/prod_snapshot_risk_events/6032/6032/data/US/USE4S_INSTRUMENT_FACTOR_DATA/2011/09/07/data.zip?offset=0&length=1043224
+2017-04-19 00 http://cfssim2rs3.dft.twosigma.com:10010/celfs/read/prod_snapshot_risk_events/3710/3710/data/US/USE4S_PIVOT_POINT/2006/09/01/header?offset=0&length=48
+2017-04-19 00 http://cfssim2rs3.dft.twosigma.com:10010/celfs/read/prod_snapshot_risk_events/3710/3710/data/US/USE4S_TWO_FACTOR_DATA/2006/04/20/header?offset=0&length=44
+2017-04-19 00 http://cfssim2rs2.dft.twosigma.com:10010/celfs/read/prod_snapshot_risk_events/6156/6156/data/US/USE4S_PIVOT_POINT/2012/03/01/data.zip?offset=0&length=202
+2017-04-19 00 http://ijk17abc.com:10010/celfs/read/tickdata/2227/2227/data/NYSE/30/monthly/200903.zip?offset=30597522&length=8388608
+2017-04-19 00 http://cfssim2rs2abc.com:10010/celfs/read/prod_snapshot_risk_events/7036/7036/data/US/USE4S_PIVOT_POINT/2013/03/16/data.zip?offset=0&length=202
+2017-04-19 00 http://cfssch1rs6.dft.twosigma.com:10010/celfs/read/vwx_US_30/8370/8370/data/data/US/30/EquityState/2011/10/24/data.dc.lzf?offset=16777216&length=8388608
+2017-04-19 00 http://cfssim2rs1abc.com:10010/celfs/read/prod_snapshot_risk_events/16/16/data/US/USE3S_PIVOT_POINT/2002/07/01/data.zip?offset=0&length=204
+2017-04-19 00 http://ijk10abc.com:10010/celfs/read/prodsim_ts_forecastcache_4/4047/4047/data/data/EU/5/xaxy1/2012/09/17.zip?offset=0&length=1316170
