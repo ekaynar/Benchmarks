@@ -1,0 +1,18 @@
+Id,Op-Name,Op-Count,Byte-Count,Worker-Count,Avg-ResTime,Avg-ProcTime,60%-ResTime,80%-ResTime,90%-ResTime,95%-ResTime,99%-ResTime,100%-ResTime,Throughput,Bandwidth,Succ-Ratio,Config-Info
+w1-s1-init_containers-1,init-write,0,0,1,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0,0,N/A,100% containers=r(101-250) containers=r(101-250) containers=r(101-250) objects=r(0-0) sizes=c(0)B containers=r(101-250)
+w1-s2-no_failure-1,1-write-write,1534,98176000,96,204.65,204.57,90,160,270,440,1440,33640,5.18,331328.19,100%,8% containers=u(101-150) objects=u(1-4020) sizes=c(64)KB
+w1-s2-no_failure-2,2-write-write,1473,94272000000,96,989.02,368.19,830,1140,1490,2050,4420,39480,4.97,318098141.64,100%,8% containers=u(151-200) objects=u(1-4020) sizes=c(64)MB
+w1-s2-no_failure-3,3-write-write,701,701000000000,96,9500.81,472.93,9740,11750,13530,14650,17780,26950,2.37,2365868806.87,100%,4% containers=u(201-250) objects=u(1-4020) sizes=c(1)GB
+w1-s2-no_failure-4,1-list-list,1963,0,96,156.37,156.37,30,50,80,130,720,28990,6.63,0,100%,10% containers=c(1-100) objects=u(1000-4020)
+w1-s2-no_failure-5,1-delete-delete,1853,0,96,99.37,99.37,50,70,80,120,350,24300,6.25,0,100%,10% containers=c(1-100) objects=u(1-100)
+w1-s2-no_failure-6,1-read-read,4420,282880000,96,149.34,148.18,30,60,90,140,730,36700,14.92,954618.7,100%,24% containers=c(1-40) objects=u(1000-4020)
+w1-s2-no_failure-7,2-read-read,4392,281088000000,96,637.91,154.22,550,760,980,1260,2800,28900,14.82,948604045.99,100%,24% containers=c(41-80) objects=u(1000-4020)
+w1-s2-no_failure-8,3-read-read,2229,2229000000000,96,7196.01,170.08,7850,9400,10570,11430,13320,46000,7.52,7520864912.93,100%,12% containers=c(81-100) objects=u(1000-4020)
+w1-s4-osd_failure-1,1-write-write,3000,192000000,96,187.34,187.26,70,120,200,380,2760,31480,5.05,323052.41,100%,8% containers=u(101-150) objects=u(4021-6020) sizes=c(64)KB
+w1-s4-osd_failure-2,2-write-write,3088,197632000000,96,1027.99,444.07,730,1140,1900,2850,5820,38350,5.2,332612522.91,100%,8% containers=u(151-200) objects=u(4021-6020) sizes=c(64)MB
+w1-s4-osd_failure-3,3-write-write,1418,1418000000000,96,11098.44,584.26,11420,13980,15990,17940,22570,48380,2.39,2385109685.85,100%,4% containers=u(201-250) objects=u(4021-6020) sizes=c(1)GB
+w1-s4-osd_failure-4,1-list-list,3806,0,96,121.81,121.81,10,30,60,90,590,34740,6.4,0,100%,10% containers=c(1-100) objects=u(1000-4020)
+w1-s4-osd_failure-5,1-delete-delete,3777,0,96,147.78,147.78,50,60,80,100,370,37590,6.36,0,100%,10% containers=c(1-100) objects=u(101-250)
+w1-s4-osd_failure-6,1-read-read,9216,589824000,96,116.14,115.05,20,40,70,110,540,38050,15.51,992593.93,100%,24% containers=c(1-40) objects=u(1000-4020)
+w1-s4-osd_failure-7,2-read-read,9123,583872000000,96,579.23,129.81,440,630,850,1270,3780,39130,15.35,982470433.53,100%,24% containers=c(41-80) objects=u(1000-4020)
+w1-s4-osd_failure-8,3-read-read,4531,4531000000000,96,6664.86,148.17,7190,8670,9840,11080,13930,45360,7.62,7624518947.41,100%,12% containers=c(81-100) objects=u(1000-4020)

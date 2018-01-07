@@ -1,0 +1,2 @@
+Id,Name,Submitted-At,Started-At,Stopped-At,Op-Info,State,Detailed State
+w1,write,2017-12-22 08:45:17,2017-12-22 08:45:18,2017-12-22 09:06:39,init write list delete read delay,terminated,queuing @ 2017-12-22 08:45:17,processing @ 2017-12-22 08:45:18,terminated @ 2017-12-22 09:06:39
