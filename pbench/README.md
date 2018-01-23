@@ -32,6 +32,12 @@ gprfs033
 ```
 * Add master's public key to all agent nodes
 
+* Edit internal-host file (remove master from internal-host files)
+```
+gprfs034
+gprfs035
+```
+
 * Run the ansible playbook
 ```
 ansible-playbook -v pbench_ins.yml 
