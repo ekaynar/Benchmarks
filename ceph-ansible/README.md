@@ -1,5 +1,16 @@
 # Installation of CEPH with Ceph-ansible from ISO
-
+## Download iso file and Key
+```
+ wget http://perf1.lab.bos.redhat.com/jharriga/SLdec2017_recovery/redhat-build.txt
+ wget http://perf1.lab.bos.redhat.com/jharriga/SLdec2017_recovery/RHCEPH-3.0-RHEL-7-20171031.ci.0-x86_64-dvd.iso
+ rpm --import redhat-build.txt
+```
+## Get the latest version of ansible (Make sure the ansible version is > 2.4)
+```
+wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+sudo rpm -i epel-release-latest-7.noarch.rpm
+rpm --import redhat-build.txt
+```
 ## SETTING DNS NAME RESOLUTION
 ```
 hostname -s
@@ -11,14 +22,18 @@ systemctl start ntpd
 systemctl status ntpd
 ntpq -p
 ```
-
+## List Delete Iptables Firewall Rules
+```
+iptables -F
+iptables -L
+```
 ## ENABLING PASSWORD-LESS SSH  - (Master Node Only)
 ```
 ssh-keygen
 ssh-copy-id node1 (repeat for all slave nodes)
 ```
 
-## Installing Ceph-ansible
+## Installing Ceph-ansible 
 ```
 yum install -y ceph-ansible
 ```
