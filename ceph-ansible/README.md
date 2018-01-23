@@ -8,8 +8,7 @@
 ## Get the latest version of ansible (Make sure the ansible version is > 2.4)
 ```
 wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
-sudo rpm -i epel-release-latest-7.noarch.rpm
-rpm --import redhat-build.txt
+sudo rpm -i epel-release-latest-7.noarch.rpm 
 ```
 ## SETTING DNS NAME RESOLUTION
 ```
