@@ -114,7 +114,8 @@ ansible-playbook purge-cluster.yml
 ```
 
 ## BlueStore installation
-* Errors with aio-max-nr and aio-nr (Run this before running CEPH-ansible)
+* The number of osds per nodes was limited by aio-max-nr. By default its set to 65536 in RHEL 7.4. 
+We should increase aio-max-nr for bluestore 
 ```
 ansible -m shell -a "cat /proc/sys/fs/aio-nr" osds
 ansible -m shell -a "echo 131072 > /proc/sys/fs/aio-max-nr" osds
@@ -124,7 +125,11 @@ if you want to make 1M
 ansible -m shell -a "echo 1048576 > /proc/sys/fs/aio-max-nr" osds
 ```
 
-https://access.redhat.com/solutions/2756421
+Helpuful link:
+ - https://access.redhat.com/solutions/2756421
+ - http://lists.ceph.com/pipermail/ceph-users-ceph.com/2017-August/020408.html
+
+
 
 * Edit all.yml (cp all.yml.sample all.yml)
 ```
