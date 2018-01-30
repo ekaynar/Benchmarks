@@ -88,6 +88,9 @@ journal_size: 5120 # OSD journal size in MB
 public_network: 172.16.0.0/16
 cluster_network: 172.17.0.0/16 #"{{ public_network }}"
 radosgw_civetweb_port: 8080
+ceph_conf_overrides:
+   mon:
+      mon allow pool delete: true
 ```
 
 * Edit osds.yml (cp osds.yml.sample osds.yml)
@@ -111,5 +114,47 @@ ansible-playbook purge-cluster.yml
 ```
 
 ## BlueStore installation
+* Errors with aio-max-nr and aio-nr (Run this before running CEPH-ansible)
+```
+ansible -m shell -a "cat /proc/sys/fs/aio-nr" osds
+ansible -m shell -a "echo 131072 > /proc/sys/fs/aio-max-nr" osds
+```
+if you want to make 1M
+```
+ansible -m shell -a "echo 1048576 > /proc/sys/fs/aio-max-nr" osds
+```
+
+https://access.redhat.com/solutions/2756421
+
+* Edit all.yml (cp all.yml.sample all.yml)
+```
+dummy:
+fetch_directory: fetch/
+ceph_origin: repository
+ceph_repository: rhcs
+ceph_repository_type: iso
+ceph_rhcs_iso_path: /root/RHCEPH-3.0-RHEL-7-20171031.ci.0-x86_64-dvd.iso # "{{ ceph_stable_rh_storage_iso_path | default('') }}"
+generate_fsid: true
+cephx: true
+monitor_interface: enp130s0f0
+monitor_address_block:  172.16.0.0/16
+journal_size: 5120 # OSD journal size in MB
+public_network: 172.16.0.0/16
+cluster_network: 172.17.0.0/16 #"{{ public_network }}"
+osd_objectstore: bluestore
+radosgw_civetweb_port: 8080
+radosgw_interface: enp130s0f0
+ceph_conf_overrides:
+   mon:
+      mon allow pool delete: true
+```
+* Edit osds.yml (cp osds.yml.sample osds.yml)
+```
+---
+dummy:
+osd_scenario: non-collocated
+devices: [ '/dev/sdc','/dev/sdd','/dev/sde','/dev/sdf','/dev/sdaa', '/dev/sdh', '/dev/sdi', '/dev/sdj', '/dev/sdk', '/dev/sdl', '/dev/sdm' ,'/dev/sdn','/dev/sdo', '/dev/sdp', '/dev/sdq', '/dev/sdr', '/dev/sds', '/dev/sdt', '/dev/sdu', '/dev/sdv', '/dev/sdw', '/dev/sdx', '/dev/sdy', '/dev/sdz']
+dedicated_devices: ['/dev/nvme0n1', '/dev/nvme0n1', '/dev/nvme0n1', '/dev/nvme0n1', '/dev/nvme0n1', '/dev/nvme0n1', '/dev/nvme0n1', '/dev/nvme0n1', '/dev/nvme0n1', '/dev/nvme0n1', '/dev/nvme0n1', '/dev/nvme0n1','/dev/nvme0n1','/dev/nvme0n1','/dev/nvme0n1','/dev/nvme0n1','/dev/nvme0n1','/dev/nvme0n1','/dev/nvme0n1','/dev/nvme0n1','/dev/nvme0n1','/dev/nvme0n1','/dev/nvme0n1','/dev/nvme0n1']
+```
 
 
