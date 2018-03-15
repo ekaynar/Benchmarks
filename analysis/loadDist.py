@@ -1,17 +1,7 @@
-
 import sys
 import numpy as np
-import operator
-import pandas as pd
-from collections import deque
-from lru import LRU
 import ConfigParser
-import lfucache.lfu_cache as LFU
 import logging
-import tarfile
-import datetime
-from os import listdir
-from os.path import isfile,join
 from uhashring import HashRing
 from clandestined import Cluster
 from clandestined import RendezvousHash
