@@ -62,14 +62,16 @@ url=http://gprfc078:18088/driver
 ```
 # Reset Multinode Cluster
 * run from controller node
-** Stop drivers and controller
+
+* Stop drivers and controller
 ```
 cd 0.4.2.c4/
 ./stop-controller.sh
 cd -
 for i in `cat client`; do ssh root@$i 'cd /root/0.4.2.c4/; sh stop-driver.sh' ; done
 ```
-** Start drivers and controller
+
+* Start drivers and controller
 ```
 cd -
 for i in `cat client`; do ssh root@$i 'cd /root/0.4.2.c4/; sh start-driver.sh' ;done
