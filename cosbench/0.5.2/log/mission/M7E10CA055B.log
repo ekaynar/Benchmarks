@@ -1,4 +1,0 @@
-2017-11-21 19:07:02,156 [INFO] [Log4jLogManager] - will append log to file /root/0.5.2/log/mission/M7E10CA055B.log
-2017-11-21 19:07:02,168 [INFO] [NoneStorage] - performing PUT at /mycontainers1
-2017-11-21 19:07:02,181 [INFO] [NoneStorage] - performing PUT at /mycontainers2
-2017-11-21 19:07:02,194 [INFO] [NoneStorage] - performing PUT at /mycontainers3
