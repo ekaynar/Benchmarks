@@ -70,11 +70,11 @@ def printBasicInfo(out,workloadName):
 	for line in fd:
 		val = line.split(",")
 		size = len(val)
-#		jobEnd = val[size-1].split("@")[1]
 		if not jobStart:
 			jobStart = val[18]. split("@")[1]
 
 	print "Submitted At:"+jobStart+ "  Started At: " +jobStart+ "  Stopped At: "+ jobEnd
+	out.write("Submitted At:"+jobStart+ "  Started At: " +jobStart+ "  Stopped At: "+ jobEnd+"\n")
 	fd.close()
 
 
@@ -357,23 +357,24 @@ def printStageInfo(out,workloadName):
 
 
 if __name__ == "__main__":
+
       	parser = argparse.ArgumentParser(description='Simulate a cache')
         parser.add_argument('-d','--archieve', help='Archieve Directory for CosBench Workload Result', required=True)
         arguments = vars(parser.parse_args())
-	#if len(sys.argv) != 2:
-        #	print ("Usage: ./parser.py <file name>")
-	#	exit(0)
-
 	param=arguments['archieve']
 	head, tail = ntpath.split(param)
 	workloadName=ntpath.basename(head)
 	path = param.split(workloadName)[0]
 
+	# FD for output file
 	output=workloadName+"-tables.txt"
 	out=open(output,"w")
+
+	# Print Tables
 	printBasicInfo(out,workloadName)
 	printFinalReport(out,workloadName)
 	printStageInfo(out,workloadName)
 	printRTInfo(out,workloadName)
 	printGeneralReport(out,workloadName)
+
 	out.close()
