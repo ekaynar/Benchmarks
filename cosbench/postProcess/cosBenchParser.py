@@ -2,7 +2,6 @@
 import sys
 import getopt
 import time
-import os
 import numpy as np
 from datetime import datetime
 import ntpath
