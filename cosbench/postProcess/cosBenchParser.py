@@ -10,7 +10,6 @@ import re
 import argparse
 import collections
 
-#path="/root/0.4.2.c4/archive/"
 path=""
 optType,opListIndex=[],[]
 history="run-history.csv"
@@ -18,7 +17,7 @@ workload="workloads.csv"
 
 def bytes_2(number_of_bytes):
     if number_of_bytes < 0:
-        raise ValueError("!!! number_of_bytes can't be smaller than 0 !!!")
+        raise ValueError("!!! number_of_byter can't be smaller than 0 !!!")
 
     step_to_greater_unit = 1000.
 
