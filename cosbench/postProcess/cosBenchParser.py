@@ -260,8 +260,8 @@ def getGeneralReport(data,filename,key,optCount):
 
 def printGeneralReport(out,workloadName):
 
-	print "\nGENERAL REPORT\n"
-	out.write("\nGENERAL REPORT\n")
+	print "\nPER STAGE RESULTS\n"
+	out.write("\nPER STAGE RESULTS\n")
 	line=["Op-Type","Op-Count","Byte-Count","Avg-ResTime","Avg-ProcTime","Throughput","Bandwidth","Succ-Ratio"]
 	data=[]
 	data.append(line)
@@ -364,14 +364,22 @@ if __name__ == "__main__":
         parser.add_argument('-d','--archieve', help='Archieve Directory for CosBench Workload Result', required=True)
         arguments = vars(parser.parse_args())
 	param=arguments['archieve']
-	head, tail = ntpath.split(param)
-	workloadName=ntpath.basename(head)
-	path = param.split(workloadName)[0]
-
+	#head, tail = ntpath.split(param)
+	#workloadName=ntpath.basename(head)
+	#path = param.split(workloadName)[0]
+	#print workloadName
+	#print path
+	var = param.split('/')
+	workloadName = var.pop()
+	if not (workloadName):
+		workloadName = var.pop()
+	path= ""
+	for i in var:
+		path +=str(i)+"/"
 	# FD for output file
 	output=workloadName+"-tables.txt"
 	out=open(output,"w")
-
+	
 	# Print Tables
 	printBasicInfo(out,workloadName)
 	printFinalReport(out,workloadName)
