@@ -2,6 +2,7 @@
 import sys
 import getopt
 import time
+import os
 import numpy as np
 from datetime import datetime
 import ntpath
@@ -9,6 +10,7 @@ import re
 import argparse
 import collections
 
+#path="/root/0.4.2.c4/archive/"
 path=""
 optType,opListIndex=[],[]
 history="run-history.csv"
@@ -16,7 +18,7 @@ workload="workloads.csv"
 
 def bytes_2(number_of_bytes):
     if number_of_bytes < 0:
-        raise ValueError("!!! number_of_byter can't be smaller than 0 !!!")
+        raise ValueError("!!! number_of_bytes can't be smaller than 0 !!!")
 
     step_to_greater_unit = 1000.
 
@@ -226,12 +228,14 @@ def getGeneralReport(data,filename,key,optCount):
 	size = len(headers)
 	d = np.empty((size+1, 0)).tolist()
 	for line in fd:
-		 val= line.split(",")
-		 for i in range(len(val)):
-			d[i].append(val[i])
+		 if "N/A" not in line:
+		 	val= line.split(",")
+		 	for i in range(len(val)):
+				d[i].append(val[i])
 	fd.close()	
 	def findsum(arr):
 		tot=0
+	#	print arr
 		for i in range(len(arr)):
 			tot+=float(arr[i])
 		return round(tot,2)
