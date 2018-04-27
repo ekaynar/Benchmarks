@@ -25,7 +25,8 @@
 https://github.com/intel-cloud/cosbench/pull/373
  * [Correct the wrong library path](https://github.com/intel-cloud/cosbench/pull/373/commits/0d263f171091539de834aec726b7809b13241232)
  * [Remove unnecessary metadata of cosbench-ecs](https://github.com/intel-cloud/cosbench/pull/373/commits/44a51247d7600c868f829883c9140d483caa9f95)
- * [Add a default configuration for importing cosbench-ecs project](https://github.com/intel-cloud/cosbench/pull/373/commits/3807991edb05a9f81c9ecfc65d45cab9f0382039) 
+ * [Add a default configuration for importing cosbench-ecs project](https://github.com/intel-cloud/cosbench/pull/373/commits/3807991edb05a9f81c9ecfc65d45cab9f0382039)
+ * [Modify the version(0.4.1) of the MANIFEST.MF files to be the same as the version(0.4.2) recorded in the VERSION file for linux users.](https://github.com/intel-cloud/cosbench/pull/373/commits/8958eef1e6cded294fc11d1e79f2eaf7414a13f3)
 
 * Cosbench changing system clock [issue](https://github.com/intel-cloud/cosbench/issues/340) which is causing error on pbench. To resolve the problem
  * Open "cosbench/dev/cosbench-driver-web/src/com/intel/cosbench/driver/handler/PingHandler.java" and remove the line
