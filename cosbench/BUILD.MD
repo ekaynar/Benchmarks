@@ -36,3 +36,7 @@ https://github.com/intel-cloud/cosbench/pull/373
 * Select all projects and right click and select "Export -> Plug-in Development -> Deployable plugins and fragments"
 * Set the "Directory" to "dist\osgi" folder. Then the plugins library will be placed at "dist\osgi\plugins" folder.
 * Run  ```pack.sh <version number>``` from cosbench directory.
+
+# Minor Fix
+* If you are using centos/Rhel please edit "cosbench-start.sh" file
+ ```TOOL_PARAMS=""```
