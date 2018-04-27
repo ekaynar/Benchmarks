@@ -23,9 +23,13 @@
 
 * Currently released version (0.4.2) has a problem that can not be used. I follow the following code modification to resolve the problem.
 https://github.com/intel-cloud/cosbench/pull/373
+ * [Correct the wrong library path](https://github.com/intel-cloud/cosbench/pull/373/commits/0d263f171091539de834aec726b7809b13241232)
+ * [Remove unnecessary metadata of cosbench-ecs](https://github.com/intel-cloud/cosbench/pull/373/commits/44a51247d7600c868f829883c9140d483caa9f95)
+ * [Add a default configuration for importing cosbench-ecs project](https://github.com/intel-cloud/cosbench/pull/373/commits/3807991edb05a9f81c9ecfc65d45cab9f0382039) 
+
 * Cosbench changing system clock [issue](https://github.com/intel-cloud/cosbench/issues/340) which is causing error on pbench. To resolve the problem
-Open "cosbench/dev/cosbench-driver-web/src/com/intel/cosbench/driver/handler/PingHandler.java" and remove the line
-  ```setSysTime(getControllerTime(scanner));```
+ * Open "cosbench/dev/cosbench-driver-web/src/com/intel/cosbench/driver/handler/PingHandler.java" and remove the line
+   ```setSysTime(getControllerTime(scanner));```
 
 # Compile and build the source code
 * Select all projects and right click and select "Export -> Plug-in Development -> Deployable plugins and fragments"
