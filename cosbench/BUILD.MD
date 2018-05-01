@@ -1,7 +1,7 @@
 # Below are steps to build Cocbench from source code using Eclipse SDK:
 
 * Download Eclipse SDK from [here](https://www.eclipse.org/downloads/)
-* Download Source code wither from github repo or from releases:
+* Download Source code either from github repo or from releases:
   * [github repo](https://github.com/intel-cloud/cosbench).  
      ```
      git clone https://github.com/intel-cloud/cosbench.git
@@ -16,8 +16,8 @@
      ```
 * Open Eclipse SDK
   * Select "File -> Import -> General -> Existeing Projects into Workspace"
-  * Select the root directory to the "dev" folder in cosbench and click "Finish".
-  * Eclipse imports all projects and there will be error signs on projects.   
+  * Select the "dev" folder in cosbench as a root directory and click "Finish" button.
+  * Eclipse imports all projects in workspace. After the code is imported, there will be error signs on multiple projects.   
 
 * Resolving error signs on projects
   * Select "Eclipse -> Preferences -> Plug-in Development -> Target Platform",
@@ -28,7 +28,7 @@
     * osgi\libs
   * After added those folders, then apply changes.
   * Go to "cosbench/dev/cosbench-openio" folder and create "test" folder and Refresh the project.
-  
+  
 * Those error signs should disappear, then the development environment is ready.
 
 # Modification of for the v0.4.2 (Optional)
