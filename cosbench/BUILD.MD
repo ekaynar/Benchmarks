@@ -48,6 +48,6 @@
 * Set the "Directory" to "dist\osgi" folder. Then the plugins library will be placed at "dist\osgi\plugins" folder.
 * Run  ```pack.sh <version number>``` from cosbench directory.
 
-# Minor Fix when you run COsbench on CentOS/Rhel System
+# Minor Fix when you run Cosbench on CentOS/Rhel System
 * If you are using centos/Rhel please edit "cosbench-start.sh" file
  ```TOOL_PARAMS=""```
