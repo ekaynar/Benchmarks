@@ -1,7 +1,19 @@
-# Below are steps to build Cocbench from source code using Eclipse:
+# Below are steps to build Cocbench from source code using Eclipse SDK:
 
 * Download Eclipse SDK from [here](https://www.eclipse.org/downloads/)
-* Clone the source code from Cosbench [repo](https://github.com/intel-cloud/cosbench) or download the source code from [releases](https://github.com/intel-cloud/cosbench/releases)
+* Download Source code from github repo or from releases:
+  * Clone the source code from Cosbench [github repo](https://github.com/intel-cloud/cosbench).  
+     ```
+     git clone https://github.com/intel-cloud/cosbench.git
+     git checkout -b v0.4.2
+     git checkout remotes/origin/0.4.2.0
+     git branch -vv
+     ```
+  * Download the source code from [releases](https://github.com/intel-cloud/cosbench/releases)
+     ``` 
+     wget https://github.com/intel-cloud/cosbench/archive/v0.4.2.tar.gz
+     tar -xvzf v0.4.2.tar.gz
+     ```
 * Open Eclipse SDK
   * Select "File -> Import -> General -> Existeing Projects into Workspace"
   * Select the root directory to the "dev" folder in cosbench and click "Finish".
