@@ -117,7 +117,7 @@ RGWs will share the same Ceph cluster.
       
     * Create User for Second RGW
       ```
-      radosgw-admin user create --uid=orran --display-name="ugur" --email=orran@example.com --rgw-zonegroup=production --rgw-zone=production_zone
+      radosgw-admin user create --uid=orran --display-name="orran" --email=orran@example.com --rgw-zonegroup=production --rgw-zone=production_zone
       adosgw-admin subuser create --uid=orran --subuser=orran:swift --access=full --rgw-zonegroup=production --rgw-zone=production_zone
       ```
    
