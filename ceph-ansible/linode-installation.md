@@ -64,7 +64,7 @@ yum install -y ceph-ansible
 
 ```
 
-# Get the "ceph-linode" from github
+# Get "ceph-linode" from github
 ```
 git clone https://github.com/batrick/ceph-linode
 ```
@@ -76,7 +76,7 @@ cd ceph-linode
 virtualenv linode-env && source linode-env/bin/activate && pip install linode-python
 ```
 
-# Edit Ceph Configurations
+# Ceph-Ansible Configuration
 * Define number of nodes and their role. "plan" defines the node type. "plan:1" is for "Nanode 1GB"
 ```
 cp cluster.json.sample cluster.json
@@ -183,19 +183,19 @@ function main {
     time python2 "$(dirname "$0")/linode-wait.py"
 ```
 
-# Disable Key Check for RHCS repo
+# Disable gpg Signature Checks
 ```
 sed -i 's/gpgcheck=1/gpgcheck=0/g' /usr/share/ceph-ansible/roles/ceph-common/templates/redhat_storage_repo.j2
 ```
 
-# Start Provisioning the Linodes
+# Deploying a Ceph Cluster
 ```
 cd ceph-linode
 export LINODE_API_KEY=<your_key>
 ./launch.sh --ceph-ansible /usr/share/ceph-ansible/
 ```
 
-# Destroy Cluster
+# Destroying a Ceph Cluster
 ```
 cd ceph-linode
 python linode-destroy.py
