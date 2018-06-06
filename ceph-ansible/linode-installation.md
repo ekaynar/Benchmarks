@@ -199,7 +199,7 @@ export LINODE_API_KEY=<your_key>
 ```
 cd ceph-linode
 python linode-destroy.py
-``
+```
 
 # Inventory file for nodes
 ```/root/ceph-linode-ansible_inventory```
