@@ -202,4 +202,4 @@ python linode-destroy.py
 ```
 
 # Inventory file for nodes
-```/root/ceph-linode-ansible_inventory```
+```/root/ceph-linode/ansible_inventory```
