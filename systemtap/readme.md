@@ -30,6 +30,18 @@ debuginfo-install kernel-3.10.0-957.el7.x86_64
 stap -v -e 'probe vfs.read {printf("read performed\n"); exit()}'.
 ```
 
+Output should look like:
+```
+[root@c04-h01-6048r ~]# stap -v -e 'probe vfs.read {printf("read performed\n"); exit()}'
+Pass 1: parsed user script and 475 library scripts using 247796virt/45028res/3468shr/41848data kb, in 320usr/30sys/735real ms.
+Pass 2: analyzed script: 1 probe, 1 function, 7 embeds, 0 globals using 412520virt/205068res/4868shr/206572data kb, in 1540usr/750sys/8150real ms.
+Pass 3: using cached /root/.systemtap/cache/d5/stap_d52fff0ada67237c2e53ff02d00f763c_2763.c
+Pass 4: using cached /root/.systemtap/cache/d5/stap_d52fff0ada67237c2e53ff02d00f763c_2763.ko
+Pass 5: starting run.
+read performed
+Pass 5: run completed in 10usr/50sys/422real ms.
+```
+
 # Error during the run
 Edit "UTS_VERSION" line in the followign file:
 ```
