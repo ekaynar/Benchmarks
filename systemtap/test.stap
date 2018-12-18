@@ -1,0 +1,10 @@
+global entry
+probe process("/usr/bin/radosgw").function("_ZN8RGWRados18get_obj_iterate_cbEP12RGWObjectCtxP11RGWObjStateRK13RGWBucketInfoRK7rgw_objRK11rgw_raw_objlllbPv")
+{
+	entry[pid()] = gettimeofday_us()
+}
+probe process("/usr/bin/radosgw").function("_ZN8RGWRados18get_obj_iterate_cbEP12RGWObjectCtxP11RGWObjStateRK13RGWBucketInfoRK7rgw_objRK11rgw_raw_objlllbPv").return
+{
+	elapsed = gettimeofday_us() - entry[pid()]
+	print(elapsed, "\n")
+}
