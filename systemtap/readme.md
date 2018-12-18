@@ -59,3 +59,40 @@ vim  /usr/src/kernels/3.10.0-957.el7.x86_64/include/generated/compile.h
 #define LINUX_COMPILER "gcc version 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) "
 ~
 ```
+
+# Writing SystemTap scripts and building modules.
+
+
+* To compile the script, run stap command as below.
+```
+stap -p4 -r $kenrelversion -m stap_example example.stp
+```
+
+# Attaching to running process
+* Lets assume we want to track the function called "get_obj_iterate_cb" in the radosgw. There might be more than one 
+First list the probe for the given function name with '-l' flag
+```
+stap -l 'process("<PROCESS NAME>").function("*"')| grep <FUNCTION_NAME>
+```
+
+```
+[root@c04-h01-6048r ~]# stap -l 'process("/usr/bin/radosgw").function("*")'|grep get_obj_iterate_cb
+process("/usr/bin/radosgw").function("_ZL19_get_obj_iterate_cbRK13RGWBucketInfoRK7rgw_objRK11rgw_raw_objlllbP11RGWObjStatePv")
+process("/usr/bin/radosgw").function("_ZN8RGWRados18get_obj_iterate_cbEP12RGWObjectCtxP11RGWObjStateRK13RGWBucketInfoRK7rgw_objRK11rgw_raw_objlllbPv")
+```
+
+Here we are looking for "_ZN8RGWRados18get_obj_iterate_cbEP12RGWObjectCtxP11RGWObjStateRK13RGWBucketInfoRK7rgw_objRK11rgw_raw_objlllbPv"
+
+
+Then we can start instrumenting 
+
+```
+stap -e 'probe process("/usr/bin/radosgw").function("_ZN8RGWRados18get_obj_iterate_cbEP12RGWObjectCtxP11RGWObjStateRK13RGWBucketInfoRK7rgw_objRK11rgw_raw_objlllbPv"){ <YOUR CODE> }'
+```
+
+For example lets print the stack back trace for current function:
+```
+stap -e 'probe process("/usr/bin/radosgw").function("_ZN8RGWRados18get_obj_iterate_cbEP12RGWObjectCtxP11RGWObjStateRK13RGWBucketInfoRK7rgw_objRK11rgw_raw_objlllbPv"){ print("\n"); print_ubacktrace(); print("************\n"); }'
+```
+
+
